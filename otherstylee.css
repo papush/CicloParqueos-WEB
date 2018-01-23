@@ -1,0 +1,120 @@
+body{
+  text-align: center;
+  background-image: url("img/background.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  image-orientation: center;
+  font-family: courier;
+  margin: 0
+  padding: 0
+}
+header {
+  background-color:rgb(0, 0, 0,0.7);
+  width: 100%;
+  text-align: center;
+  color:#F36329
+  line-height: 0.9em;
+}
+
+a{
+  text-decoration: none;
+  color: #494949
+}
+
+nav ul{
+  background:;
+  overflow: hidden;
+  color:#000;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: rgb(0, 173, 239,0.5);
+  padding: 11px;
+  color: #000;
+  border: 1px solid #000
+}
+nav ul li:hover{
+  background-color:#00ADEF
+}
+section{
+  text-align: left;
+  background-color: rgb(0, 0, 0,0.8);
+  width: auto;
+  padding: 0.1px 10px;
+  margin:0;
+}
+
+h1{
+  color:#F35E18;
+  font-family: sans-serif;
+}
+
+h4{
+  color: #00ADEF;
+  font-family: sans-serif;
+}
+
+button.accordion {
+    background-color: #000;
+    color: #80CC28;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: rgb(0, 0, 0,0.1);
+    color: #80CC28;
+    font-style: oblique;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgb(0, 0, 0,0.5);
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+  image-orientation: center;
+}
+
+p {
+  color:#939393;
+  font-family:sans
+}
+.container{
+  max-width:960px;
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+}
+
+@media screen and (max-width: 580px){
+  .container{
+    width: auto;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  nav ul li{
+    display:block;
+    padding:3px 7px;
+    text-align: left;
+    border: 1px solid #000;
+  }
+
+  section{
+    width: auto
+  }
+}

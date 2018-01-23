@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CicloParqueos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta charset="utf-8">
+<link rel="stylesheet" href="otherstyle.css">
+</head>
+<body>
+    <header>
+      <img src="img/CPlogo.png" alt=header href=index.htm >
+      <p style="font-family:monospace;font-size:125%;color:#F36329"> Fomentando el ciclismo urbano</p>
+    </header>
+    <nav style="font-family:sans;">
+        <ul>
+          <a href="prod.htm"><li>Productos</li></a>
+          <a href="serv.htm"><li>Servicios y Alianzas</li></a>
+          <a href="acc.htm"><li>Ciclo-Cine</li></a>
+          <a href="CI.htm" target="_blank"><li>Ciclo-Incluyente</li></a>
+          <a href="hist.htm"><li>Nuestra Historia</li></a>
+          <a href="client.htm"><li>Clientes</li></a>
+          <a href="cont.htm"><li>Contacto</li></a>
+        </ul>
+    </nav>
+  <div align="center">
+    <div class=container>
+          <section>
+            <h1 style="color:#F35E18;font-family:sans">Nuestros Productos:</h1>
+            <button class="accordion">Racks para Exteriores</button>
+              <div class="panel" style="padding:0px">
+                <a href="prods/sun.htm"><img class="prod" src="img/sunrack.png" alt="sunrack"></img></a>
+                <a href="prods/spiral.htm"><img class="prod" src="img/spiralrack.png" alt="spiralrack"></img></a>
+                <a href="prods/pipe.htm"><img class="prod" src="img/piperack.png" alt="piperack"></img></a>
+                <a href="prods/urban.htm"><img class="prod" src="img/urbanrack.png" alt="sunrack"></img></a>
+                <a href="prods/docking.htm"><img class="prod" src="img/dockingrack.png" alt="spiralrack"></img></a>
+                <a href="prods/lex.htm"><img class="prod" src="img/lexrack.png" alt="piperack"></img></a>
+                <a href="prods/easy.htm"><img class="prod" src="img/easyrack.png" alt="sunrack"></img></a>
+                <a href="prods/circle.htm"><img class="prod" src="img/circlerack.png" alt="spiralrack"></img></a>
+                <a href="prods/triangle"><img class="prod" src="img/trianglerack.png" alt="piperack"></img></a>
+                <a href="prods/single.htm"><img class="prod" src="img/singlerack.png" alt="sunrack"></img></a>
+                <a href="prods/cubic.htm"><img class="prod" src="img/cubicrack.png" alt="spiralrack"></img></a>
+              </div>
+
+            <button class="accordion">Racks para Casa/Oficina</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Accesorios</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+              <button class="accordion">Rotulación</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+
+              <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+
+              for (i = 0; i < acc.length; i++) {
+                  acc[i].onclick = function(){
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "block") {
+                          panel.style.display = "none";
+                      } else {
+                          panel.style.display = "block";
+                      }
+                  }
+              }
+              </script>
+        </section>
+    </div>
+  </div>
+</body>
+</html>

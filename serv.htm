@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CicloParqueos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta charset="utf-8">
+<link rel="stylesheet" href="otherstyle.css">
+</head>
+<body>
+    <header>
+      <img src="img/CPlogo.png" alt=header>
+      <p style="font-family:monospace;font-size:125%;color:#F36329"> Fomentando el ciclismo urbano</p>
+    </header>
+    <nav style="font-family:sans;">
+        <ul>
+          <a href="prod.htm"><li>Productos</li></a>
+          <a href="serv.htm"><li>Servicios y Alianzas</li></a>
+          <a href="acc.htm"><li>Ciclo-Cine</li></a>
+          <a href="CI.htm" target="_blank"><li>Ciclo-Incluyente</li></a>
+          <a href="hist.htm"><li>Nuestra Historia</li></a>
+          <a href="client.htm"><li>Clientes</li></a>
+          <a href="cont.htm"><li>Contacto</li></a>
+        </ul>
+    </nav>
+  <div align="center">
+    <div class=container>
+          <section>
+            <h1>Servicios y Alianzas:</h1>
+            <button class="accordion">Valet Parking Eventos</button>
+              <div class="panel">
+  		            <img src="img/valet_result.png" alt="valet parking" style="float:right;padding:10px">
+                  <p>Se trata de un servicio mediante el cual habilitamos parqueo para bicicletas en eventos de escala mediana o masiva.</p>
+                  <p>Al habilitar un valet parking te estás sumando con una respuesta al ciclismo urbano y el transporte sostenible, de esta manera acondicionando un espacio donde los asistentes pueden dejar su bicicleta en custodia de manera cómoda y segura.
+                  <p>A través de un trato amigable nos hacemos cargo de la seguridad de las bicicletas , para que así sus dueños puedan disfrutar sin problemas durante el evento, viviendo asi una experiencia memorable.</p>
+                  <h4>STAFF</h4>
+                  <p>Se compone de jovenes simpatizantes del ciclismo urbano, comprometidos, atentos, empáticos, pura vida y con vocación de servicio profesional. El staff trabajará con usted por adelantado para determinar el mejor lugar para el puesto de valet parking, nosotros nos encargamos del resto.</p>
+                  <img src="img/valet2.png" alt="valet parking2" style="max-width:450px;float:left;padding:10px">
+                  <h4>Experiencia</h4>
+                  <p>Hemos participado en eventos de distinta magnitud, desde las 20 hasta las 100 bicicletas simultáneas, por lo que samos como adecuarnos a las distintas situaciones. Algunos de nuestros eventos mas recientes:</p>
+                  <h4>Beneficios a nivel Cultural y Social</h4>
+                  <p>Disminución en la Huella de carbono Comprobable y medible. Realizamos un cálculo de las toneladas de CO2 ahorrado en cada evento y emitimos un reporte con dicha información que permitirá realizar publicidad luega de finalizado ele evento.</p>
+                  <p>Además, los eventos/productoras/marcas; que faciliten en servicio, calaran en los usuarios de manera positiva, se mostrarán a través de una actividad de entrenamiento familiar gratuito, sostenible y ecoamigable, lo cual generará fidelidad por parte de los participantes a dicho evento hacia la marca o producto que lo facilita, fomentando un nuevo estilo de vida soludable en la sociedad.</p>
+                  <h4>Pilares de Trabajo:</h4>
+                  <img src="img/pilares.png" alt=pilaresdetrabajo>
+              </div>
+
+              <button class="accordion">Ciclo-Cine</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+
+              <button class="accordion">Visitas al Lugar y Diseno</button>
+              <div class="panel">
+                <img src="img/diseno2.jpg" alt="diseno" style="float:right;padding:10px;max-width:450px">
+                <p style="font-size:115%">El personal de CicloParqueos CR está entrenado para ayudarle con densidad creciente, ubicación del lugar, riesgos de seguridad, análisis de superficie e instalaciones con chorrea, detectar posibles obstáculos y a encontrar también soluciones que los clientes nunca antes hubieran pensado.</p>
+              </div>
+
+              <button class="accordion">Taller de Ciclismo Urbano</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+
+              <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+
+              for (i = 0; i < acc.length; i++) {
+                  acc[i].onclick = function(){
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "block") {
+                          panel.style.display = "none";
+                      } else {
+                          panel.style.display = "block";
+                      }
+                  }
+              }
+              </script>
+        </section>
+    </div>
+  </div>
+</body>
+</html>

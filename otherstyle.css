@@ -1,0 +1,121 @@
+body{
+  text-align: center;
+  background-image: url(img/background3.jpg);
+  background-repeat:no-repeat;
+  background-attachment: local;
+  image-orientation: center;
+  font-family: arial;
+  margin: 0
+  padding: 0
+}
+header {
+  background-color:;
+  width: 100%;
+  text-align: center;
+  color:#F36329
+  line-height: 0.9em;
+}
+
+a{
+  text-decoration: none;
+  color: #494949
+}
+
+nav ul{
+  background-color:;
+  overflow: hidden;
+  color:#000;
+  padding: 10px;
+  margin:0px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color:#CCCCCC;
+  padding: 11px;
+  color: #615F60;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 1px solid #797979
+}
+nav ul li:hover{
+  background-color: #00ADEF;
+  color: #615F60;
+}
+section{
+  text-align: left;
+  background-color:#DFDFDF;
+  width: auto;
+  padding: 0.1px 10px;
+  margin:0;
+  border-radius: 15px;
+}
+
+img.prod:hover{
+  opacity:0.7;
+  filter: alpha (opacity=70);
+}
+button.accordion {
+    background-color: #C8C8C8;
+    color: #484546;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+    border-radius: 7px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #00ADEF;
+    color: #484546;
+    font-style: oblique;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color:#ffffff;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+  image-orientation: center;
+}
+
+p {
+  color:#484546;
+  font-family: sans-serif;
+  font-size: 110%;
+}
+.container{
+  max-width:980px;
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+}
+
+@media screen and (max-width: 580px){
+  .container{
+    width: auto;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  nav ul li{
+    display:block;
+    padding:3px 7px;
+    text-align: left;
+    border: 1px solid #797979
+  }
+
+  section{
+    width: auto
+  }
+}
