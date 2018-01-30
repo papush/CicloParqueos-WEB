@@ -9,8 +9,9 @@
 </head>
 <body>
     <header>
-      <img src="img/CPlogo.png" alt=header href=index.htm >
-      <p style="font-family:monospace;font-size:125%;color:#F36329"> Fomentando el ciclismo urbano</p>
+      <img src="img/CPlogo.png" alt=header href=index.htm><br>
+      <img src="img/foment.png" alt="fomentando el ciclismo urbano">
+      <p hidden style="font-family:monospace;font-size:125%;color:#F36329"> Fomentando el ciclismo urbano</p>
     </header>
     <nav style="font-family:sans;">
         <ul>
@@ -23,14 +24,17 @@
           <a href="cont.htm"><li>Contacto</li></a>
         </ul>
     </nav>
+
+    <!-- ACCORDIONS-->
   <div align="center">
     <div class=container>
           <section>
             <h1 style="color:#F35E18;font-family:sans">Nuestros Productos:</h1>
             <button class="accordion">Racks para Exteriores</button>
               <div class="panel" style="padding:0px">
+
                 <a href="prods/sun.htm"><img class="prod" src="img/sunrack.png" alt="sunrack"></img></a>
-                <a href="prods/spiral.htm"><img class="prod" src="img/spiralrack.png" alt="spiralrack"></img></a>
+                <span onclick="openNav()"><img class="prod" src="img/spiralrack.png" alt="spiralrack"></img></span>
                 <a href="prods/pipe.htm"><img class="prod" src="img/piperack.png" alt="piperack"></img></a>
                 <a href="prods/urban.htm"><img class="prod" src="img/urbanrack.png" alt="sunrack"></img></a>
                 <a href="prods/docking.htm"><img class="prod" src="img/dockingrack.png" alt="spiralrack"></img></a>
@@ -55,23 +59,61 @@
               <div class="panel">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
+<!-- OVERLAY BACKBONE-->
+      <!--Spiral Rack-->
+              <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <h1 style="font-size:350%;color:white">Spiral Rack</h1>
+                  <p style="letter-spacing:3px;color:#F35E18">SOPORTE ATRACTIVO</p>
+                  <hr>
+                  <img src="img/pipee.jpg" alt="pipe" style="float:right;max-width:100%;padding:5px;">
+                  <p style="color:#80CC28"><strong>Características del Producto:</strong></p>
+                    <ul>
+                      <li>Doble lado de uso</li>
+                      <li>Rack eficiente en el espacio, efecto visual llamativo y estético</li>
+                      <li>Soporta multiples bicicletas</li>
+                      <li>ES COMPATIBLE CON TODOS LOS DISPOSITIVOS DE SEGURIDAD INCLUYENDO U-LOCKS</li>
+                    </ul>
+                  <table style="font-size:18px;color:#00ADEF;font-weight:bold;text-align:right">
+                    <tr>
+                      <td>Seguridad:</td>
+                      <td><img src="img/4locks.gif" alt="a"></td>
+                    </tr>
+                    <tr>
+                      <td>Costo por bicicleta:</td>
+                      <td><img src="img/3$.gif" alt="a"></td>
+                    </tr>
+                </div>
+              </div>
+      <!--Other Rack-->
 
-              <script>
-              var acc = document.getElementsByClassName("accordion");
-              var i;
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
 
-              for (i = 0; i < acc.length; i++) {
-                  acc[i].onclick = function(){
-                      this.classList.toggle("active");
-                      var panel = this.nextElementSibling;
-                      if (panel.style.display === "block") {
-                          panel.style.display = "none";
-                      } else {
-                          panel.style.display = "block";
-                      }
-                  }
-              }
-              </script>
+  for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+              panel.style.display = "none";
+          } else {
+              panel.style.display = "block";
+          }
+      }
+  }
+  </script>
+    <!--OVERLAY !!!!-->
+  <script>
+  function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
         </section>
     </div>
   </div>

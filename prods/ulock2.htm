@@ -5,16 +5,16 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta charset="utf-8">
 <link rel="stylesheet" href="p2style.css">
-
 <body>
 
 <div class="w3-sidebar w3-bar-block w3-collapse w3-card-2" style="width:250px;" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
   <img src="img/CPlogo.png" alt="logoCP" style="max-width:100%">
   <a href="../prod.htm" style="max-width:200px;background-color:#DFDFDF;color:#484546;font-weight:bold" class="w3-large w3-bar-item w3-button">← Atras</a>
+
   <button style="max-width:200px;" class="w3-button w3-block w3-left-align" onclick="myAccFunc()">→ Racks para Exteriores<i class="fa fa-caret-down"></i>
   </button>
-    <div id="demoAcc" class=" w3-show w3-white w3-card-2">
+    <div id="demoAcc" class="w3-white w3-card-2">
       <a href="sun.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Sun Rack</a>
       <a href="pipe.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button active">Pipe Rack</a>
       <a href="spiral.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Spiral Rack</a>
@@ -31,35 +31,45 @@
   <button style="max-width:200px;" class="w3-button w3-block w3-left-align" onclick="myAccFunc2()">→ Racks para Casa/Oficina<i class="fa fa-caret-down"></i>
   </button>
     <div id="demoAcc2" class="w3-hide w3-white w3-card-2">
-      <a href="#" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Sun Rack</a>
-      <a href="#" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Spiral Rack</a>
+      <a href="duck.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Duck Rack</a>
+      <a href="cubic2.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Cubic Rack</a>
+      <a href="triangle2.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Triangle</a>
+      <a href="steady.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Steady Rack</a>
+      <a href="cuna.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Cuña Rack</a>
+      <a href="escuadra.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">Escuadra Rack</a>
     </div>
 
-  <a href="acc.htm" class="w3-large w3-bar-item w3-button">Accesorios</a>
-  <a href="rot.htm" class="w3-large w3-bar-item w3-button">Rotulacion</a>
+  <button style="max-width:200px;" class="w3-show w3-button w3-block w3-left-align" onclick="myAccFunc3()">Accesorios<i class="fa fa-caret-down"></i></button>
+    <div id="demoAcc3" class="w3-hide w3-white w3-card-2">
+      <a href="ulock1.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">U-Lock Kryptonite Serie 2</a>
+      <a href="ulock2.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">U-Lock Bulldog Mini DT</a>
+      <a href="ulock3.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">U-Lock Kryptonite 4 x 9</a>
+      <a href="ulock4.htm" style="text-align:right;max-width:200px" class="w3-bar-item w3-button">U-Lock K-9 Flex</a>
+    </div>
 </div>
 
 <div class="w3-main" style="margin-left:250px">
-<div class="w3-yellow 3-teal">
-  <button class="w3-button w3-yellow w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+<div class="w3-gray 3-teal">
+  <button class="w3-button w3-gray w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
   <div class="w3-container" style="background-color:#00ADEF">
-    <h1 style="color:#000">Catálogo de Productos</h1>
+    <h1 style="color:#484546">Catálogo de Productos</h1>
   </div>
 </div>
 
-<div class="w3-container" style="max-width:700px">
-  <h1 style="font-size:350%;">Rack</h1>
+<div class="w3-container" style="max-width:100%">
+  <h1 style="font-size:350%;">U-Lock Kryptonite Serie 2</h1>
   <div class="directorySlider"></div>
-  <p class="w3-xlarge w3-text-dark-grey" style="letter-spacing:3px ">SEGURIDAD CON ESTILO</p>
-  <p><strong>Características del Producto:</strong></p>
+  <p class="w3-xlarge w3-text-dark-grey" style="letter-spacing:3px ">HEAVY DUTY</p>
   <hr  style="color:#000">
   <img src="../img/pipee.jpg" alt="pipe" style="float:right;max-width:100%;padding:5px;">
+  <p><strong>Características del Producto:</strong></p>
   <ul>
     <li></li>
     <li></li>
     <li></li>
     <li></li>
   </ul>
+
   <table style="font-size:18px;color:#484546;font-weight:bold;text-align:right">
     <tr>
       <td>Seguridad:</td>
@@ -90,6 +100,18 @@ function myAccFunc() {
 
 function myAccFunc2() {
     var x = document.getElementById("demoAcc2");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-green";
+    } else {
+        x.className = x.className.replace(" w3-show", " w3-hide");
+        x.previousElementSibling.className =
+        x.previousElementSibling.className.replace(" w3-green", "");
+    }
+}
+
+function myAccFunc3() {
+    var x = document.getElementById("demoAcc3");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
         x.previousElementSibling.className += " w3-green";

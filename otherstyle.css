@@ -12,8 +12,9 @@ header {
   background-color:;
   width: 100%;
   text-align: center;
-  color:#F36329
+  color:#F36329;
   line-height: 0.9em;
+  display: inline-block;
 }
 
 a{
@@ -37,7 +38,8 @@ nav ul li {
   color: #615F60;
   font-weight: bold;
   border-radius: 15px;
-  border: 1px solid #797979
+  border: 1px solid #797979;
+  font-family: arial;
 }
 nav ul li:hover{
   background-color: #00ADEF;
@@ -92,6 +94,7 @@ p {
   color:#484546;
   font-family: sans-serif;
   font-size: 110%;
+  padding:5px;
 }
 .container{
   max-width:980px;
@@ -118,4 +121,52 @@ p {
   section{
     width: auto
   }
+  .overlay-content {
+      margin-top: 5px;
+      margin-left: 5px;
+  }
+
+}
+
+/*OVERLAY*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color:#797979;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    left: 7%;
+    width: 90%;
+    text-align: left;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
 }
