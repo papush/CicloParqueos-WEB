@@ -44,8 +44,19 @@ nav ul li {
 
 nav ul li:hover{
   background-color: #00ADEF;
-  color: #615F60;
+  color:#484546;
 }
+
+nav ul li.active {
+  background-color: #00ADEF;
+  color:#484546;
+}
+
+nav ul li.active:hover{
+background-color:#4BCDFF;
+color: #615F60;
+}
+
 section{
   text-align: left;
   background-color:#DFDFDF;
@@ -102,6 +113,21 @@ img.client {
 
 h1{
   color:#F35E18;
+}
+
+h2{
+  color:#00ADEF;
+}
+
+p.form{
+  color:#484546;
+  font-size: 200%;
+}
+
+h2.center {
+  text-align:center;
+  padding:15px;
+  font-size: 150%;
 }
 
 p {
