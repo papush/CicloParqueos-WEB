@@ -25,20 +25,22 @@
   <div align="center">
     <div class=container>
           <section>
-            <h1>Servicios y Alianzas:</h1>
+            <h1>Nuestros Servicios:</h1>
             <button class="accordion">Valet Parking Eventos</button>
               <div class="panel">
                 <h2 class="center">¿Valet Parking para bicicletas?</h2>
                 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/l6tUfuN9fTI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                <hr>
                 <h2 class="center">Nuestros pilares de trabajo:</h2>
-                <img style="width:100%" src="img/pilares.png" alt=pilaresdetrabajo><br><br>
+                  <div class="pilares">
+                    <span onclick="openNav1()"><img class="prod" style="max-width:225px" src="img/amor.png" alt=amorbici></span>
+                    <span onclick="openNav2()"><img class="prod" style="max-width:225px" src="img/seguridad.png" alt=seguridad></span>
+                    <span onclick="openNav3()"><img class="prod" style="max-width:225px" src="img/apoyo.png" alt=alpollomecanico></span>
+                    <span onclick="openNav4()"><img class="prod" style="max-width:225px" src="img/sostenibilidad.png" alt=sostenibilidad></span>
+                  </div>
+                <hr>
                 <h2 class="center">Experiencia:</h2>
                 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/yO9t2VEgj7w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-              </div>
-
-              <button class="accordion">Ciclo-Cine</button>
-              <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
 
               <button class="accordion">Visitas al Lugar y Diseno</button>
@@ -51,25 +53,83 @@
               <div class="panel">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
+          </section>
+        </div>
+      </div>
 
-              <script>
-              var acc = document.getElementsByClassName("accordion");
-              var i;
+<!--OVERLAY-->
+<div id="myNav1" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+  <div class="overlay-content">
+    <h1 class="overlad">Amor a la bici</h1>
+  </div>
+  </div>
 
-              for (i = 0; i < acc.length; i++) {
-                  acc[i].onclick = function(){
-                      this.classList.toggle("active");
-                      var panel = this.nextElementSibling;
-                      if (panel.style.display === "block") {
-                          panel.style.display = "none";
-                      } else {
-                          panel.style.display = "block";
-                      }
-                  }
-              }
-              </script>
-        </section>
+  <div id="myNav2" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+    <div class="overlay-content">
+      <h1 class="overlad">Seguridad</h1>
     </div>
   </div>
+
+    <div id="myNav3" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+      <div class="overlay-content">
+        <h1 class="overlad">Apoyo Mecánico</h1>
+      </div>
+      </div>
+
+      <div id="myNav4" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+        <div class="overlay-content">
+          <h1 class="overlad">Sostenibilidad</h1>
+        </div>
+        </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+<script>
+function openNav1() {
+document.getElementById("myNav1").style.width = "100%";
+}
+function closeNav1() {
+document.getElementById("myNav1").style.width = "0%";
+}
+
+function openNav2() {
+document.getElementById("myNav2").style.width = "100%";
+}
+function closeNav2() {
+document.getElementById("myNav2").style.width = "0%";
+}
+
+function openNav3() {
+document.getElementById("myNav3").style.width = "100%";
+}
+function closeNav3() {
+document.getElementById("myNav3").style.width = "0%";
+}
+
+function openNav4() {
+document.getElementById("myNav4").style.width = "100%";
+}
+function closeNav4() {
+document.getElementById("myNav4").style.width = "0%";
+}
+</script>
 </body>
 </html>

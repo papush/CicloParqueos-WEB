@@ -56,7 +56,9 @@ nav ul li.active:hover{
 background-color:#4BCDFF;
 color: #615F60;
 }
-
+hr{
+  color:#797979
+}
 section{
   text-align: left;
   background-color:#DFDFDF;
@@ -160,7 +162,7 @@ h1.overlad {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .overlay-content {
@@ -191,6 +193,18 @@ h1.overlad {
     font-size: 60px;
 }
 
+div.lang{
+  position: fixed;
+  right:5px;
+  left:auto;
+  top:5px;
+}
+
+img.lang{
+  max-width: 50px;
+  text-shadow: 0 0 3px #7E93B4,0 0 3px #7E93B4
+}
+
 /*MOBILE*/
 @media screen and (max-width: 580px){
   .container{
@@ -217,7 +231,7 @@ h1.overlad {
   }
 
   h1.overlad {
-    font-size:250%;
+    font-size:210%;
     color:white
   }
 
