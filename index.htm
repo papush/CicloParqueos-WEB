@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes">
 <meta charset="utf-8">
-<link rel="stylesheet" href="indexstyle.css">
+<link rel="stylesheet" href="otherstyle.css">
+<link rel="stylesheet" href="pstyle.css">
 </head>
 <body>
     <header>
@@ -25,6 +26,8 @@
   <div align="center">
     <div class=container>
           <section>
+
+
             <h1 style="color:#F35E18;font-family:sans">¿Quienes Somos?</h1>
             <p>Ciclo Parqueos CR es una empresa que nace con el propósito de facilitar el ciclismo urbano, al integrar estacionamientos para bicicletas en la ciudad, mejorando la calidad de vida, el tiempo y el bienestar urbano con productos, servicios, sostenibilidad y seguridad.</p>
             <p>El ciclismo urbano es una opción de modalidad sustentable con un alto potencial para mejorar la salud de la población, reducir los congestionamientos viales y mejorar la calidad del aire.</p>
@@ -36,5 +39,24 @@
         </section>
     </div>
   </div>
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
 </body>
 </html>
