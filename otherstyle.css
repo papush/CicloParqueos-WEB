@@ -125,6 +125,10 @@ div.panel {
     float:right;
     max-width:500px
   }
+
+  div.space{
+    min-height: 420px;
+  }
   img.acabados {
     max-width: 100px;
     max-height: 100px;
@@ -250,7 +254,7 @@ img.lang{
     column-count: 1;
   }
 div.space{
-  display: none;
+  min-height: 100px;
 }
   nav ul li{
     display:block;
