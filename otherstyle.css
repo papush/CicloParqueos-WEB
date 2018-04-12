@@ -105,7 +105,7 @@ div.panel {
     background-color:rgb(72, 69, 70, 0.4);
     color:white;
     text-align: left;
-    max-width: 100%;
+    max-width: 550px;
     border-radius: 10px;
     opacity:0.9;
     filter: alpha (opacity=90);
@@ -127,8 +127,10 @@ div.panel {
   }
 
   div.space{
-    min-height: 420px;
+    min-height: 390px;
   }
+
+
   img.acabados {
     max-width: 100px;
     max-height: 100px;
@@ -307,8 +309,7 @@ height: 100%;
 @media screen and (max-width: 814px){
   div.gal{
     float:none;
-    width: 100%;
-
+    max-width: 100%;
+    margin-right: 4px;
   }
   }
-}
