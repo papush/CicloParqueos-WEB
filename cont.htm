@@ -12,15 +12,16 @@
     <header>
       <img src="img/CPlogo.png" alt=header href=index.htm >
     </header>
-    <nav style="font-family:sans;">
+    <nav style="font-family:sans;" class="topnav" id="myTopnav">
         <ul>
           <a href="prod.htm"><li>Productos</li></a>
           <a href="serv.htm"><li>Servicios</li></a>
           <a href="cine.htm"><li>Ciclo-Cine</li></a>
-          <a href="CI.htm" target="_blank"><li>Ciclo-Incluyente</li></a>
+          <a href="#" target="_blank"><li>Ciclo-Incluyente</li></a>
           <a href="hist.htm"><li>Nuestra Historia</li></a>
           <a href="client.htm"><li>Clientes</li></a>
           <a href="cont.htm"><li class="active">Contacto</li></a>
+          <a href="javascript:void(0);" style="font-size:30px;font-weight:bold" class="icon" onclick="navFunction()">&#9776;</a>
         </ul>
     </nav>
   <div align="center">
@@ -43,5 +44,16 @@
         </section>
     </div>
   </div>
+
+  <script>
+function navFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 </body>
 </html>

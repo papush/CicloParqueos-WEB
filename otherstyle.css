@@ -9,7 +9,7 @@ body{
   padding: 0
 }
 header {
-  background-color:;
+  background-color:white;
   width: 100%;
   text-align: center;
   color:#F36329;
@@ -23,7 +23,7 @@ a{
 }
 
 nav ul{
-  background-color:;
+  background-color:white;
   overflow: hidden;
   color:#000;
   padding: 10px;
@@ -33,35 +33,45 @@ nav ul{
 
 nav ul li {
   display: inline-block;
-  background-color:#CCCCCC;
+  background-color:;
   padding: 11px;
-  color: #615F60;
-  font-weight: bold;
-  border-radius: 7px;
+  font-size: 17px;
+  color: #a2a0a1;
+  font-weight:;
+  border-radius:;
   border: 0px solid #797979;
   font-family: arial;
+  border-bottom: 2px solid white;
 }
 
 nav ul li:hover{
-  background-color: #00ADEF;
+  background-color:;
   color:#484546;
+  border-bottom: 2px solid #00ADEF;
 }
 
 nav ul li.active {
-  background-color: #00ADEF;
-  color:#484546;
+  background-color:none;
+  color:#615F60;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 nav ul li.active:hover{
-background-color:#4BCDFF;
+background-color:;
 color: #615F60;
+border-bottom: 2px solid #80CC28;
+}
+
+.topnav a.icon{
+  display: none;
 }
 hr{
   border: 1px solid #cccccc;
 }
 section{
   text-align: left;
-  background-color:#DFDFDF;
+  background-color:#ebebeb;
   width: auto;
   padding: 0.1px 10px;
   margin:0;
@@ -89,8 +99,8 @@ button.accordion {
 
 button.accordion.active, button.accordion:hover {
     background-color: #00ADEF;
-    color: #484546;
-    font-style: oblique;
+    color: white;
+    font-style: ;
 }
 
 div.panel {
@@ -151,7 +161,7 @@ img.client {
 }
 
 h1{
-  color:#F35E18;
+  color:#00ADEF;
 }
 
 h2{
@@ -285,6 +295,14 @@ div.space{
       right: 10px;
       font-size: 40px;
   }
+
+  .topnav a{display: none}
+}
+.topnav a.icon{
+  display: block;
+  float: right;
+  color: #00ADEF;
+
 }
 
 
@@ -305,6 +323,54 @@ height: 100%;
 }
 
 .mySlides {display:none;}
+
+.column1 {
+    float: left;
+    padding: 10px;
+    height:400px;
+    width:65%;
+    box-sizing:border-box;
+}
+.column2 {
+    float: left;
+    padding: 10px;
+    width:35%;
+    height:400px;
+    box-sizing:border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 580px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .column1 {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      height:auto;
+      box-sizing:content-box;
+  }
+  .column2 {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      height:auto;
+      box-sizing: content-box;
+  }
+}
 
 @media screen and (max-width: 814px){
   div.gal{
