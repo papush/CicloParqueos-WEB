@@ -21,6 +21,10 @@ a{
   text-decoration: none;
   color: #494949
 }
+a.link{
+  color:#00ADEF
+}
+
 
 nav ul{
   background-color:;
@@ -78,6 +82,7 @@ p {
   column-count: 2;
 }
 
+
 @media screen and (max-width: 580px){
   .container{
     width: auto;
@@ -86,13 +91,13 @@ p {
     column-count: 1;
   }
 
+
   nav ul li{
     display:block;
     padding:7px 7px;
     text-align: left;
     border: 1px solid white
   }
-
 
   section{
     width: auto
