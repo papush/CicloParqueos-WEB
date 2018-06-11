@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes">
 <meta charset="utf-8">
-<link rel="stylesheet" href="otherstyle.css">
-<link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="css/otherstyle.css">
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/columna.css">
 </head>
 <body>
     <header>
@@ -21,26 +22,38 @@
           <a href="hist.htm"><li>Nuestra Historia</li></a>
           <a href="client.htm"><li>Clientes</li></a>
           <a href="cont.htm"><li class="active">Contacto</li></a>
-          <a href="javascript:void(0);" style="font-size:30px;font-weight:bold" class="icon" onclick="navFunction()">&#9776;</a>
         </ul>
     </nav>
   <div align="center">
     <div class=container>
-        <section style="max-width:500px">
-            <h2>Formulario de Contacto:</h2>
-            <form action="https://formspree.io/info@cicloparqueos.com"
-                method="POST">
-               <label for="fname">Nombre:</label>
-               <input type="text" id="fname" name="firstname" placeholder="tu nombre...">
+        <section>
+          <div class="rowa">
+              <div class="columna1">
+                <h2>Oficinas:</h2>
+                <p>Nuestras Oficinas están localizadas en San José CR, Barrio Córdoba, Avenida 26A. 100metros al este de la Iglesia Príncipe de Paz</p>
+                <a href="tel:+506-2226-0650" style="color:#1A0DB2;font-size:160%;font-weight:bold">+506-2226-0650</a><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46768.30063487342!2d-84.08988773532448!3d9.934215937286163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3672be54cd5%3A0x44af8029e2ec335f!2sCicloParqueos+CR!5e0!3m2!1ses!2scr!4v1528678082542" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <hr>
+                <p style="font-size:160%">info@cicloparqueos.com</p>
+                <a target="_blank" href="https://www.instagram.com/cicloparqueos/"><img src="img/instagram.png" style="max-width:80px" alt="instagram"></a>
+                <a target="_blank" href="https://es-la.facebook.com/CicloParqueos/"><img src="img/facebook2.png" style="max-width:80px" alt="facebook"></a>
+              </div>
+              <div class="columna2">
+                <h2>Formulario de Contacto:</h2>
+                <form action="https://formspree.io/info@cicloparqueos.com"
+                    method="POST">
+                   <label for="fname">Nombre:</label>
+                   <input type="text" id="fname" name="firstname" placeholder="tu nombre...">
 
-               <label for="email">e-mail:</label>
-               <input type="text" id="email" name="lastname" placeholder="tu correo electronico...">
+                   <label for="email">e-mail:</label>
+                   <input type="text" id="email" name="lastname" placeholder="tu correo electronico...">
 
-               <label for="subject">Mensaje:</label><br>
-               <textarea id="subject" name="subject" placeholder="Escribi aqui tu mensaje..."></textarea>
-
-               <input type="submit" value="ENVIAR">
-           </form>
+                   <label for="subject">Mensaje:</label><br>
+                   <textarea id="subject" name="subject" placeholder="Escribi aqui tu mensaje..."></textarea>
+                   <input type="submit" value="ENVIAR">
+               </form>
+              </div>
+          </div>
         </section>
     </div>
   </div>

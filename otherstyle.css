@@ -71,7 +71,7 @@ hr{
 }
 section{
   text-align: left;
-  background-color:#ebebeb;
+  background-color:;
   width: auto;
   padding: 0.1px 10px;
   margin:0;
@@ -160,13 +160,10 @@ img.client {
   image-orientation: center;
 }
 
-h1{
+h1 , h2 , h3 , h4 {
   color:#00ADEF;
 }
 
-h2{
-  color:#00ADEF;
-}
 
 h4{
   color:#00ADEF;
@@ -189,6 +186,13 @@ p {
   font-size: 110%;
   padding:5px;
 }
+
+ul.list {
+  color:#484546;
+  font-family: sans-serif;
+  font-size: 110%;
+  text-indent: 50px;
+}
 .container{
   max-width:980px;
   -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -210,7 +214,7 @@ h1.overlad {
     z-index: 1;
     top: 0;
     left: 0;
-    color:#797979;
+    color:#A1A1A1;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
@@ -229,9 +233,13 @@ h1.overlad {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #A1A1A1;
     display: block;
     transition: 0.3s;
+}
+
+.overlay2 p {
+    color: #CCCCCC;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -255,6 +263,53 @@ div.lang{
 img.lang{
   max-width: 50px;
   text-shadow: 0 0 3px #7E93B4,0 0 3px #7E93B4
+}
+
+
+.topnav a.icon{
+  display: block;
+  float: right;
+  color: #00ADEF;
+
+}
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.mySlides {display:none;}
+
+.column1 {
+    float: left;
+    padding: 10px;
+    height:400px;
+    width:65%;
+    box-sizing:border-box;
+}
+.column2 {
+    float: left;
+    padding: 10px;
+    width:35%;
+    height:400px;
+    box-sizing:border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*MOBILE*/
@@ -298,52 +353,7 @@ div.space{
 
   .topnav a{display: none}
 }
-.topnav a.icon{
-  display: block;
-  float: right;
-  color: #00ADEF;
 
-}
-
-
-.video-container {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px; height: 0; overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-
-.mySlides {display:none;}
-
-.column1 {
-    float: left;
-    padding: 10px;
-    height:400px;
-    width:65%;
-    box-sizing:border-box;
-}
-.column2 {
-    float: left;
-    padding: 10px;
-    width:35%;
-    height:400px;
-    box-sizing:border-box;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 @media screen and (max-width: 580px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
