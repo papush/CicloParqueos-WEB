@@ -113,7 +113,7 @@ button.accordion2 {
     color: #484546;
     cursor: pointer;
     padding: 5px;
-    width: 70%;
+    min-width: 70%;
     border: none;
     text-align: left;
     outline: 0 !important;
