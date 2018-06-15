@@ -21,6 +21,11 @@ a{
   text-decoration: none;
   color: #494949
 }
+p.gray{
+    color:#CCCCCC;
+    font-size: 110%;
+    padding:0px
+}
 
 nav ul{
   background-color:white;
@@ -90,7 +95,7 @@ button.accordion {
     width: 100%;
     border: none;
     text-align: left;
-    outline: none;
+    outline: 0 !important;
     font-size: 25px;
     transition: 0.4s;
     border-radius: 7px;
@@ -103,6 +108,26 @@ button.accordion.active, button.accordion:hover {
     font-style: ;
 }
 
+button.accordion2 {
+    background-color: #C8C8C8;
+    color: #484546;
+    cursor: pointer;
+    padding: 5px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: 0 !important;
+    font-size: 25px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin: 6px;
+}
+
+button.accordion2.active, button.accordion2:hover {
+    background-color:#80CC28;
+    color: white;
+    font-style: ;
+}
 div.panel {
     padding: 0 18px;
     display: none;
@@ -324,6 +349,14 @@ height: 100%;
   display: none;
 }
 
+div.footer {
+  width:100%;
+  background-color:#484546;
+  min-height:80px;
+  margin-top:20px;
+  padding:10px;
+  text-align:center;
+}
 /*MOBILE*/
 @media screen and (max-width: 580px){
   .container{

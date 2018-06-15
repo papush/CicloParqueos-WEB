@@ -1,0 +1,41 @@
+
+
+
+.columna11 {
+    float: left;
+    padding: 10px;
+    min-height:250px;
+    width:30%;
+    box-sizing:border-box;
+}
+
+.columna22 {
+    float: left;
+    padding: 10px;
+    width:70%;
+    min-height:250px;
+    box-sizing:border-box;
+}
+
+.rowe:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 580px){
+  .columna11 {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      height:auto;
+      box-sizing:content-box;
+  }
+  .columna22 {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      height:auto;
+      box-sizing: content-box;
+  }
+}
