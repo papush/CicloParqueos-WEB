@@ -135,6 +135,14 @@ div.panel {
     background-color:#ffffff;
   }
 
+  div.panel2 {
+      padding: 0px;
+      margin:0px;
+      display: none;
+      border-radius: 10px;
+      background-color:#ffffff;
+    }
+
   div.acabados {
     background-color:;
     background-color:rgb(72, 69, 70, 0.4);

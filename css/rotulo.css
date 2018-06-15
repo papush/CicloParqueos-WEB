@@ -1,0 +1,72 @@
+
+.rotulo {
+  position: relative;
+  max-width: 440px;
+  padding:5px;
+  display:inline-flex;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 99%;
+  opacity: 0;
+  padding:0px;
+  margin: 0px;
+  border-radius: 15px;
+  transition: .7s ease;
+  background-color: #00ADEF;
+}
+
+.adjust {
+  font-size: 100%;
+}
+
+.rotulo:hover .overlayo {
+  opacity: 0.8;
+}
+
+.texto {
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top:10%;
+  left:13%;
+  transform: translate(-10%, -10%);
+  -ms-transform: translate(-10%, -10%);
+}
+
+@media screen and (max-width: 500px){
+  .adjust {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .adjust {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 345px){
+  .adjust {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 310px){
+  .adjust {
+    font-size: 50%;
+  }
+}
