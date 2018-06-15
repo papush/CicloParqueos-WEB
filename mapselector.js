@@ -3,13 +3,13 @@ function mapsSelector() {
     ((navigator.platform.indexOf("iPhone") != -1) ||
      (navigator.platform.indexOf("iPad") != -1) ||
      (navigator.platform.indexOf("iPod") != -1))
-    window.open("http://maps.apple.com/maps?daddr=CicloParqueos CR, Avenida 26A, San José&amp;ll=");
+    window.open("http://maps.apple.com/maps?daddr=9.922186,-84.066635&amp;ll=");
 
   var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
 
     if (isAndroid)
     {
-      window.open("geo:CicloParqueos CR, Avenida 26A, San José");
+      window.open("geo:0,0?q=9.922186,-84.066635(CicloParqueos CR)");
     }
 
   else /* else use Google */
