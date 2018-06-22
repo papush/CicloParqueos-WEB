@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/columna.css">
 <link rel="stylesheet" href="css/overlay2.css">
 <link rel="stylesheet" href="css/pstyle.css">
+<script type="text/javascript" src="jquery.js"></script>
 </head>
 <body>
     <header>
@@ -18,6 +19,7 @@
         <ul>
           <a href="prod.htm"><li>Productos</li></a>
           <a href="serv.htm"><li class="active">Servicios</li></a>
+          <a href="ciclourbano.htm"><li>Ciclo Urbano</li></a>
           <a href="cine.htm"><li>Ciclo-Cine</li></a>
           <a href="cicloincluyente.htm"><li>Ciclo-Incluyente</li></a>
           <a href="hist.htm"><li>Nuestra Historia</li></a>
@@ -50,7 +52,24 @@
                     <span onclick="openNav3()"><img class="prod" style="max-width:225px" src="img/apoyo.png" alt=alpollomecanico></span>
                     <span onclick="openNav4()"><img class="prod" style="max-width:225px" src="img/sostenibilidad.png" alt=sostenibilidad></span>
                   </div>
+
+                  <div class="fadein">
+                       <img src="img/valgal1.jpg" alt=".">
+                       <img src="img/valgal2.jpg" alt=".">
+                       <img src="img/valgal3.jpg" alt=".">
+                       <img src="img/valgal4.jpg" alt=".">
+                       <img src="img/valgal5.jpg" alt=".">
+                       <img src="img/valgal6.jpg" alt=".">
+                       <img src="img/valgal7.jpg" alt=".">
+                       <img src="img/valgal8.jpg" alt=".">
+                       <img src="img/valgal9.jpg" alt=".">
+                       <img src="img/valgal10.jpg" alt=".">
+                       <img src="img/valgal11.jpg" alt=".">
+                       <img src="img/valgal12.jpg" alt=".">
+                       <img src="img/valgal13.jpg" alt=".">
+                  </div>
                 <hr>
+
                 <h2 class="center">Experiencia:</h2>
                 <div class="row">
                     <div class="column1">
@@ -152,6 +171,17 @@
           </div>
         </div>
         </div>
+
+<script>
+        $(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein');},
+      4000);
+});
+</script>
 
 <script>
 var acc = document.getElementsByClassName("accordion");
