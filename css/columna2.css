@@ -9,10 +9,26 @@
     box-sizing:border-box;
 }
 
+.columna111 {
+    float: left;
+    padding: 10px;
+    min-height:250px;
+    width:23%;
+    box-sizing:border-box;
+}
+
 .columna22 {
     float: left;
     padding: 10px;
     width:70%;
+    min-height:250px;
+    box-sizing:border-box;
+}
+
+.columna222 {
+    float: left;
+    padding: 10px;
+    width:76%;
     min-height:250px;
     box-sizing:border-box;
 }
@@ -32,6 +48,21 @@
       box-sizing:content-box;
   }
   .columna22 {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      height:auto;
+      box-sizing: content-box;
+  }
+
+columna111 {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      height:auto;
+      box-sizing:content-box;
+  }
+  .columna222 {
       float: left;
       width: 100%;
       padding: 10px;
