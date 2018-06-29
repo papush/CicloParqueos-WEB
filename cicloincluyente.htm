@@ -7,8 +7,11 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/otherstyle.css">
 <link rel="stylesheet" href="css/columna2.css">
+<link rel="stylesheet" href="css/columna.css">
 <link rel="stylesheet" href="css/pstyle.css">
 <script type="text/javascript" src="mapselector.js"></script>
+<script type="text/javascript" src="slider.js"></script>
+<script src="jquery.js"></script>
 </head>
 <body>
     <header>
@@ -36,8 +39,49 @@
               RED DE EMPRESAS CICLO-INCLUYENTES</h1>
               <h3>Reconocimiento Ciclo-incluyente</h3>
 
-              <p>En CicloParqueos CR además de fomentar la creación de infraestructura para ciclistas, e impulsar el uso de la bicicleta como medio de transporte en áreas urbanas, hemos decidido brindar un reconocimiento a todos los establecimientos o zonas de acceso público y privadas que mantengan un compromiso para hacer de sus espacios lugares Ciclo-Incluyentes y que decidan optar por favorecer al medio ambiente, así como apoyar las propuestas de movilización urbana sostenible.</p>
-              <p>Este reconocimiento costa de 5 categorías cada una de ellas se otorga de acuerdo al nivel de compromiso de las empresas con la movilidad no motorizada y sostenible.</p>
+              <div class="row">
+                  <div class="columna1" style="height:auto">
+                    <p>En este nivel se puede observar el compromiso por parte del establecimiento o lugar público, ya
+                    que posee un lugar con infraestructura específica para ciclistas, don estos podrán dejar sus
+                    bicicletas en un sitio seguro mientras los ciclistas visitan el establecimiento.</p>
+                    <p>En CicloParqueos CR además de fomentar la creación de infraestructura para ciclistas, e impulsar el uso de la bicicleta como medio de transporte en áreas urbanas, hemos decidido brindar un reconocimiento a todos los establecimientos o zonas de acceso público y privadas que mantengan un compromiso para hacer de sus espacios lugares Ciclo-Incluyentes y que decidan optar por favorecer al medio ambiente, así como apoyar las propuestas de movilización urbana sostenible.</p>
+                  </div>
+                  <div class="columna2" style="height:auto">
+
+                    <div style="max-width:450px" class="w3-content w3-display-container slider gal2" id="div24">
+                      <img class="mySlides" src="img/cert1.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert2.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert3.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert4.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert5.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert6.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert7.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert8.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert9.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert10.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert11.jpg" style="width:100%">
+                      <img class="mySlides" src="img/cert12.jpg" style="width:100%">
+
+                      <a class="w3-button w3-display-left w3-black" style="opacity:0.35;filter:alpha (opacity=35);" onclick="plusDivs(this,-1)">&#10094;</a>
+                      <a class="w3-button w3-display-right w3-black" style="opacity:0.35;filter:alpha (opacity=35);" onclick="plusDivs(this,1)">&#10095;</a>
+                    </div>
+                    <div hidden class="fadein2">
+                         <img src="img/cert1.jpg" alt=".">
+                         <img src="img/cert2.jpg" alt=".">
+                         <img src="img/cert3.jpg" alt=".">
+                         <img src="img/cert4.jpg" alt=".">
+                         <img src="img/cert5.jpg" alt=".">
+                         <img src="img/cert6.jpg" alt=".">
+                         <img src="img/cert7.jpg" alt=".">
+                         <img src="img/cert8.jpg" alt=".">
+                         <img src="img/cert9.jpg" alt=".">
+                         <img src="img/cert10.jpg" alt=".">
+                         <img src="img/cert11.jpg" alt=".">
+                         <img src="img/cert12.jpg" alt=".">
+                      </div>
+                  </div>
+                </div>
+              <p>Este reconocimiento consta de 5 categorías cada una de ellas se otorga de acuerdo al nivel de compromiso de las empresas con la movilidad no motorizada y sostenible.</p>
 
               <h3>Categorías:</h3>
               <div style="position:relative;background-color:white;padding:10px">
@@ -97,7 +141,6 @@
                         <p>Al igual que deseamos reconocer la iniciativa Ciclo-incluyente, existe la opción de que el establecimiento sea reconocido como un espacio seguro para mascotas, en el cual puedan obtener agua y alimento a su mascota el cual se categoriza como espacio amigable para mascotas.</p>
                       </div>
                     </div>
-
             </div>
               <h3>REQUISITOS</h3>
               <p>Todo establecimiento o espacio interesado en contar con el reconocimiento por parte de CicloParqueosCR deberá de pasar por el debido proceso, el cual consiste en llenar un formulario que indique la anuencia y compromiso por parte del establecimiento, además se deberá realizar una inspección por parte de CicloParqueos CR para establecer y catalogar la infraestructura necesaria o existente y poder determinar la cantidad de candados que se le deben
@@ -142,5 +185,62 @@
     <img alt="prueba" src="img/gglmps.png" style="width:50px;cursor:pointer" onclick="mapsSelector()">
     <p style="font-size:70%" class="gray">Web Design by Pablo Hellmund</p>
   </div>
+
+<script>
+  var sliderObjects = [];
+    createSliderObjects();
+
+    function plusDivs(obj, n) {
+    var parentDiv = $(obj).parent();
+    var matchedDiv;
+    $.each(sliderObjects, function(i, item) {
+      if ($(parentDiv[0]).attr('id') == $(item).attr('id')) {
+        matchedDiv = item;
+        return false;
+      }
+    });
+    matchedDiv.slideIndex=matchedDiv.slideIndex+n;
+    showDivs(matchedDiv, matchedDiv.slideIndex);
+    }
+
+    function createSliderObjects() {
+    var sliderDivs = $('.slider');
+    $.each(sliderDivs, function(i, item) {
+      var obj = {};
+      obj.id = $(item).attr('id');
+      obj.divContent = item;
+      obj.slideIndex = 1;
+      obj.slideContents = $(item).find('.mySlides');
+      showDivs(obj, 1);
+      sliderObjects.push(obj);
+    });
+    }
+
+    function showDivs(divObject, n) {
+    debugger;
+    var i;
+    if (n > divObject.slideContents.length) {
+      divObject.slideIndex = 1
+    }
+    if (n < 1) {
+      divObject.slideIndex = divObject.slideContents.length
+    }
+    for (i = 0; i < divObject.slideContents.length; i++) {
+      divObject.slideContents[i].style.display = "none";
+    }
+    divObject.slideContents[divObject.slideIndex - 1].style.display = "block";
+    }
+</script>
+
+<script>
+        $(function(){
+    $('.fadein2 img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein2 :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein2');},
+      4000);
+});
+</script>
 </body>
 </html>

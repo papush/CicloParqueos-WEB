@@ -68,6 +68,12 @@ color: #615F60;
 border-bottom: 2px solid #80CC28;
 }
 
+ul li{
+  color:#484546;
+  font-family: sans-serif;
+  font-size: 90%;
+  padding:2px;
+}
 .topnav a.icon{
   display: none;
 }
@@ -189,6 +195,18 @@ div.panel {
       left:0;
        top:0;
       }
+
+      .fadein2 {
+         position:relative;
+          width:100%;
+          height:auto;
+        }
+
+      .fadein2 img {
+         position:absolute;
+          left:0;
+           top:0;
+          }
 
   div.img{
     margin-bottom:10px;
