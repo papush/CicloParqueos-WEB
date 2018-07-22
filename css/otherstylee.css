@@ -21,6 +21,12 @@ a{
   color: #494949
 }
 
+a.link{
+  text-decoration: underline;
+  color: #00ADEF;
+}
+
+
 nav ul{
   background:;
   overflow: hidden;

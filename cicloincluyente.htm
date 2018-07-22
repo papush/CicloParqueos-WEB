@@ -21,12 +21,12 @@
         <ul>
           <a href="prod.htm"><li>Productos</li></a>
           <a href="serv.htm"><li>Servicios</li></a>
-          <a href="ciclourbano.htm"><li>Ciclo-Urbano</li></a>
+          <a href="store.htm"><li>Ciclo-Store</li></a>
           <a href="cine.htm"><li>Ciclo-Cine</li></a>
           <a href="cicloincluyente.htm"><li class="active">Ciclo-Incluyente</li></a>
-          <a href="hist.htm"><li>Nuestra Historia</li></a>
+          <a href="videos.htm"><li>Videos</li></a>
           <a href="client.htm"><li>Clientes</li></a>
-          <a href="cont.htm"><li>Contacto</li></a>
+          <a hidden href="cont.htm"><li>Contacto</li></a>
         </ul>
     </nav>
 
@@ -41,14 +41,14 @@
 
               <div class="row">
                   <div class="columna1" style="height:auto">
-                    <p>En este nivel se puede observar el compromiso por parte del establecimiento o lugar público, ya
-                    que posee un lugar con infraestructura específica para ciclistas, don estos podrán dejar sus
-                    bicicletas en un sitio seguro mientras los ciclistas visitan el establecimiento.</p>
                     <p>En CicloParqueos CR además de fomentar la creación de infraestructura para ciclistas, e impulsar el uso de la bicicleta como medio de transporte en áreas urbanas, hemos decidido brindar un reconocimiento a todos los establecimientos o zonas de acceso público y privadas que mantengan un compromiso para hacer de sus espacios lugares Ciclo-Incluyentes y que decidan optar por favorecer al medio ambiente, así como apoyar las propuestas de movilización urbana sostenible.</p>
+                    <p>Este reconocimiento consta de 5 categorías cada una de ellas se otorga de acuerdo al nivel de compromiso de las empresas con la movilidad no motorizada y sostenible.</p>
                   </div>
                   <div class="columna2" style="height:auto">
+<div class="fadein2">
 
-                    <div style="max-width:450px" class="w3-content w3-display-container slider gal2" id="div24">
+</div>
+                    <div hidden style="max-width:450px" class="w3-content w3-display-container slider gal2" id="div24">
                       <img class="mySlides" src="img/cert1.jpg" style="width:100%">
                       <img class="mySlides" src="img/cert2.jpg" style="width:100%">
                       <img class="mySlides" src="img/cert3.jpg" style="width:100%">
@@ -65,7 +65,7 @@
                       <a class="w3-button w3-display-left w3-black" style="opacity:0.35;filter:alpha (opacity=35);" onclick="plusDivs(this,-1)">&#10094;</a>
                       <a class="w3-button w3-display-right w3-black" style="opacity:0.35;filter:alpha (opacity=35);" onclick="plusDivs(this,1)">&#10095;</a>
                     </div>
-                    <div hidden class="fadein2">
+                    <div class="fadein2">
                          <img src="img/cert1.jpg" alt=".">
                          <img src="img/cert2.jpg" alt=".">
                          <img src="img/cert3.jpg" alt=".">
@@ -81,7 +81,6 @@
                       </div>
                   </div>
                 </div>
-              <p>Este reconocimiento consta de 5 categorías cada una de ellas se otorga de acuerdo al nivel de compromiso de las empresas con la movilidad no motorizada y sostenible.</p>
 
               <h3>Categorías:</h3>
               <div style="position:relative;background-color:white;padding:10px">
@@ -165,13 +164,14 @@
               </ul>
               <h4>Nuestro recocimiento cuenta con el apoyo y respaldo de:</h4>
               <div style="display:inline-block">
-                <img style="max-width:220px" src="img/chepecletas.jpg" alt=".">
-                <img style="max-width:150px" src="img/bicibus.jpg" alt=".">
-                <img style="max-width:150px" src="img/arquienbici.jpg" alt=".">
-                <img style="max-width:150px" src="img/aconvivir.png" alt=".">
-                <img style="max-width:200px" src="img/amo.jpg" alt=".">
-                <img style="max-width:150px" src="img/movete.png" alt=".">
+                <a target="_blank" href="http://www.chepecletas.com/en/home/"><img style="max-width:220px" src="img/chepecletas.jpg" alt="."></a>
+                <a target="_blank" href="https://es-la.facebook.com/BiciBusAlTrabajoEnBici/"><img style="max-width:150px" src="img/bicibus.jpg" alt="."></a>
+                <a target="_blank" href="https://es-la.facebook.com/Arqenbici/"><img style="max-width:110px" src="img/arqenbici.jpg" alt="."></a>
+                <a target="_blank" href="http://www.aconvivir.org/contenido/"><img style="max-width:150px" src="img/aconvivir.png" alt="."></a>
+                <a target="_blank" href="http://www.amoprobienestaranimal.com/"><img style="max-width:150px" src="img/amo.jpg" alt="."></a>
+                <a target="_blank" href="http://moveteportuciudad.com/"><img style="max-width:150px" src="img/movete.png" alt="."></a>
               </div>
+              <p>¿Sabes quiénes son? <br>Te invitamos a que le des click a sus logos y conozcas un poco más de estos proyectos.</p>
 
 
           </section>
@@ -239,7 +239,7 @@
       $('.fadein2 :first-child').fadeOut()
          .next('img').fadeIn()
          .end().appendTo('.fadein2');},
-      4000);
+      5000);
 });
 </script>
 </body>
