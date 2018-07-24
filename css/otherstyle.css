@@ -419,6 +419,9 @@ div.footer {
     column-count: 1;
   }
 
+.mhide{
+  display: none;
+}
   .fadein {
      position:relative;
       width:600px;
