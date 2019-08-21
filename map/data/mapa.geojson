@@ -1,0 +1,6458 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.752843,9.657652 ]
+    },
+    "properties": {
+    "id":1,
+    "nombre":"Koki Beach",
+    "link":"https://www.facebook.com/KOKIBEACH/?ref=br_rs",
+    "telefono":"2750-0902",
+    "horario":"Martes a D 5  pm a 11  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"CicloParqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Limón",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/1.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.154125,9.982372 ]
+    },
+    "properties": {
+    "id":2,
+    "nombre":"Centro de Negocios Eurocenter",
+    "link":"http://www.eurocentercostarica.com/",
+    "telefono":"2293-9990",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":18,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/2.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.112857,9.940337 ]
+    },
+    "properties": {
+    "id":3,
+    "nombre":"Nunciatura Flats",
+    "link":"https://www.facebook.com/civitar/",
+    "telefono":"2253-5050",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":7,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/3.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.054047,9.934116 ]
+    },
+    "properties": {
+    "id":4,
+    "nombre":"Casa Emprendedora María Teresa Obregón",
+    "link":"http://www.augeucr.com/",
+    "telefono":"2511-1334",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.789362,10.213352 ]
+    },
+    "properties": {
+    "id":5,
+    "nombre":"Banco Nacional - Sucursal Guápiles",
+    "link":"https://www.bncr.fi.cr/BNCR/Default.aspx",
+    "telefono":"2212-2000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Limón",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/5.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.202694,10.024972 ]
+    },
+    "properties": {
+    "id":6,
+    "nombre":"Condominio Los Higuerones",
+    "link":"https://lalillyana.com/condominio-los-higuerones/",
+    "telefono":"2262-8686",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Privado",
+    "uso":"Residentes y visitantes",
+    "capacidad":48,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/6.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.21091,10.03759 ]
+    },
+    "properties": {
+    "id":7,
+    "nombre":"Condominio Santa Rita",
+    "link":"http://lalillyanaurbanismo.com/condominio-santa-rita/",
+    "telefono":"2262-8687",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Privado",
+    "uso":"Residentes y visitantes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/7.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.060527,9.938168 ]
+    },
+    "properties": {
+    "id":8,
+    "nombre":"101 Escalante",
+    "link":"http://www.101escalante.com/",
+    "telefono":"2203-1210",
+    "horario":"L a V de 2  pm a 6  pm.",
+    "tipo":"Privado",
+    "uso":"Residentes y visitantes",
+    "capacidad":14,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/8.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.075528,9.933528 ]
+    },
+    "properties": {
+    "id":9,
+    "nombre":"La Oliva Verde",
+    "link":"https://www.laolivaverde.com/",
+    "telefono":"2280-2908",
+    "horario":"L a D de 11  am a 8  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"10% [válido individualmente al presentar casco]",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/9.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.043349,9.95305 ]
+    },
+    "properties": {
+    "id":10,
+    "nombre":"Centro de Acrobacia Jaguares",
+    "link":"https://www.facebook.com/JaguaresCentroDeAcrobacia/",
+    "telefono":"2234-1664",
+    "horario":"L, K y V de 1 pm a 8 pm, M y J 9 am a 8 pm y S 9 am a 5 pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/10.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.443832,10.628389 ]
+    },
+    "properties": {
+    "id":11,
+    "nombre":"Librería Universal - Sucursal Liberia",
+    "link":"http://tiendauniversal.com/",
+    "telefono":"2243-0289",
+    "horario":"L a D: 10  am a 7  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":18,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/11.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.067862,9.933142 ]
+    },
+    "properties": {
+    "id":12,
+    "nombre":"Cine Magally",
+    "link":"https://cinemagaly.com/",
+    "telefono":"2223-0085",
+    "horario":"L a D: 10  am a 10  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"30% en confitería [válido individualmente al presentar casco]",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/12.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"cámaras ",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.196848,9.957237 ]
+    },
+    "properties": {
+    "id":13,
+    "nombre":"Centro Comercial Terrazas",
+    "link":"http://terrazaslindora.com/",
+    "telefono":"2208-8999",
+    "horario":"L a S de 10  a.m. a 9  p.m. - D de 10  a.m. a 8  p.m.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":28,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/13.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.194072,9.954954 ]
+    },
+    "properties": {
+    "id":14,
+    "nombre":"Western Union",
+    "link":"https://westernunioncareers.jobs/santa-ana/none/cri/jobs/",
+    "telefono":"2506-1234",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Privado",
+    "uso":"Colaboradores",
+    "capacidad":22,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/14.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.076202,9.93813 ]
+    },
+    "properties": {
+    "id":15,
+    "nombre":"Acá Mini Mercado",
+    "link":"https://www.facebook.com/deacacostarica/",
+    "telefono":"7014-3221",
+    "horario":"L a V de 9  am a 7  pm y S y D de 11  am a 7  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"Capuccino 8oz Gratis por Compra Repostería",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/15.1.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.049368,9.940116 ]
+    },
+    "properties": {
+    "id":16,
+    "nombre":"Gym Jivó",
+    "link":"https://www.facebook.com/Gimnasio-Jiv%C3%B3-225259150995314/",
+    "telefono":"2225-0324",
+    "horario":"L a D de 5:30am a 7 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/16.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07795,9.94075 ]
+    },
+    "properties": {
+    "id":17,
+    "nombre":"ULACIT",
+    "link":"www.ulacit.ac.cr",
+    "telefono":"2523-4000",
+    "horario":"L a S de 9  am a 9:30 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/17.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.069431,9.936908 ]
+    },
+    "properties": {
+    "id":18,
+    "nombre":"Hospital Calderón Guardia",
+    "link":"http://www.ccss.sa.cr/hospitales?v=9",
+    "telefono":"2212-1000",
+    "horario":"L a D de 6  am a 6  am",
+    "tipo":"Privado",
+    "uso":"Colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/18.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.178322,9.933475 ]
+    },
+    "properties": {
+    "id":19,
+    "nombre":"Plaza Koros",
+    "link":"https://www.facebook.com/pages/Plaza-Koros/374882669383769?fref=mentions",
+    "telefono":"",
+    "horario":"L a S de 10  a.m. a 9  p.m. - D de 10  a.m. a 8  p.m.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/19.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.275644,9.990259 ]
+    },
+    "properties": {
+    "id":20,
+    "nombre":"SMC Lmtd",
+    "link":"https://www.smcltd.com/contact/locations/",
+    "telefono":"2433-2858",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/20.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1529942,9.9426324 ]
+    },
+    "properties": {
+    "id":21,
+    "nombre":"Centro de Negocios Meridiano",
+    "link":"http://meridianobusinesscenter.com/site/",
+    "telefono":"2505-5000",
+    "horario":"L a S de 9  am a 10  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/21.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.073325,9.937409 ]
+    },
+    "properties": {
+    "id":22,
+    "nombre":"Centro de Cine",
+    "link":"https://www.centrodecine.go.cr/",
+    "telefono":"2542-5200",
+    "horario":"L a V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/22.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.338861,10.083608 ]
+    },
+    "properties": {
+    "id":23,
+    "nombre":"INS Sede Batán",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Limón",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/23.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.923279,9.859695 ]
+    },
+    "properties": {
+    "id":24,
+    "nombre":"INS Sede Cartago",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2550-4000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":26,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/24.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.041698,9.895276 ]
+    },
+    "properties": {
+    "id":25,
+    "nombre":"INS Sede CENCARE",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2251-9586",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/25.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.941914,8.648367 ]
+    },
+    "properties": {
+    "id":26,
+    "nombre":"INS Sede Ciudad Neily",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2783-9222",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/26.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.430608,10.321477 ]
+    },
+    "properties": {
+    "id":27,
+    "nombre":"INS Sede Ciudad Quesada",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2460-2361",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/27.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07383,9.93667 ]
+    },
+    "properties": {
+    "id":28,
+    "nombre":"INS Sede Edificio Central San José Colaboradores",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":27,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/28.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07409,9.93674 ]
+    },
+    "properties": {
+    "id":28,
+    "nombre":"INS Sede Edificio Central San José Usuarios",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":27,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/28.2.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.041841,9.927745 ]
+    },
+    "properties": {
+    "id":29,
+    "nombre":"INS Sede Edificio Ins Servicios",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":24,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/29.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.553308,10.447438 ]
+    },
+    "properties": {
+    "id":30,
+    "nombre":"INS Sede Filadelfia",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6700",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":18,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/30.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.154594,8.6256 ]
+    },
+    "properties": {
+    "id":31,
+    "nombre":"INS Sede Golfito",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2775-0128",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/31.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.783096,10.215155 ]
+    },
+    "properties": {
+    "id":32,
+    "nombre":"INS Sede Guápiles",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2798-9520",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":42,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Limón",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/32.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.441752,10.62733 ]
+    },
+    "properties": {
+    "id":33,
+    "nombre":"INS Sede Liberia",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2666-9635",
+    "horario":"L a V de 08  am a 5  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":40,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/33.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.027163,9.993434 ]
+    },
+    "properties": {
+    "id":34,
+    "nombre":"INS Sede Limón",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2798-9586",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Limón",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/34.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.072745,9.933217 ]
+    },
+    "properties": {
+    "id":35,
+    "nombre":"INS Sede Museo de Jade",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2521-6610",
+    "horario":"L a D de 10  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/35.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.452728,10.145031 ]
+    },
+    "properties": {
+    "id":36,
+    "nombre":"INS Sede Nicoya",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2686-9048",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":34,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/36.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.703096,9.372372 ]
+    },
+    "properties": {
+    "id":37,
+    "nombre":"INS Sede Perez Zeledón",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2770-9689",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":36,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/36.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.833467,9.9777 ]
+    },
+    "properties": {
+    "id":38,
+    "nombre":"INS Sede Puntarenas",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2661-9636",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":28,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/38.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.504666,10.095792 ]
+    },
+    "properties": {
+    "id":39,
+    "nombre":"INS Sede Siquirres",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2768-5505",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Limón",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/39.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.68163,9.902252 ]
+    },
+    "properties": {
+    "id":40,
+    "nombre":"INS Sede Turrialba",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2556-9966",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/40.jpeg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.02174,9.6611 ]
+    },
+    "properties": {
+    "id":41,
+    "nombre":"INS Sede San Marcos de Tarrazú",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2550-4077",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/41.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.73375,10.36016 ]
+    },
+    "properties": {
+    "id":42,
+    "nombre":"INS Sede Cariari de Guápiles",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"22876000 Ext.: 7838 y 7839",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Limón",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/42.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74284,9.1735 ]
+    },
+    "properties": {
+    "id":43,
+    "nombre":"INS Sede Uvita",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"22876000 Ext 7195 y 7196",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/43.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.27274,10.45473 ]
+    },
+    "properties": {
+    "id":44,
+    "nombre":"INS Sede Pital",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"22876000 Ext.: 7735 y 7736.",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/44.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.6459004,10.4720965 ]
+    },
+    "properties": {
+    "id":45,
+    "nombre":"INS Sede Fortuna",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"22876000 Ext.: 7733",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/45.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.66612,9.99138 ]
+    },
+    "properties": {
+    "id":46,
+    "nombre":"INS Sede Esparza",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"26619636 Ext 7968 y 7967",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/46.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.5281,9.91708 ]
+    },
+    "properties": {
+    "id":47,
+    "nombre":"INS Sede Orotina",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/47.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.0158,10.90019 ]
+    },
+    "properties": {
+    "id":48,
+    "nombre":"INS Sede Upala",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6000",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/48.jpeg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1242497,9.999181 ]
+    },
+    "properties": {
+    "id":49,
+    "nombre":"INS Sede Heredia",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2263-9856",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/49.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.865042,9.8391422 ]
+    },
+    "properties": {
+    "id":50,
+    "nombre":"INS Sede Paraíso",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2550-4040",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/50.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1868736,9.9791657 ]
+    },
+    "properties": {
+    "id":51,
+    "nombre":"INS Sede San Antonio de Belén",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"22397401 Ext.: 4502 y 4503",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/51.2.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1323423,9.934539 ]
+    },
+    "properties": {
+    "id":52,
+    "nombre":"INS Sede Escazú Village",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2289-0799",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/52.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.584428,8.999434 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58728,9.00341 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53A.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58662,9.00287 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53B.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.585,9.00399 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53C.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58417,9.00335 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53D.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58357,9.00125 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53E.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58257,8.99999 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53F.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58183,9.00086 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53G.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58289,8.99795 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53H.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58183,9.00094 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53I.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.58108,9.00516 ]
+    },
+    "properties": {
+    "id":53,
+    "nombre":"Ciudad del Saber",
+    "link":"https://www.ciudaddelsaber.org",
+    "telefono":"5073-3700",
+    "horario":"L a D de 7 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":160,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Panamá",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/53J.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.17334,9.981 ]
+    },
+    "properties": {
+    "id":54,
+    "nombre":"Parque Recreativo Ambiental - Municipalidad de Belén",
+    "link":"https://www.belen.go.cr/",
+    "telefono":"2587-0000",
+    "horario":"L a V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":14,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/54.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.050937,9.920242 ]
+    },
+    "properties": {
+    "id":55,
+    "nombre":"Universidad Libre de Derecho",
+    "link":"www.uescuelalibre.cr",
+    "telefono":"2283-5533",
+    "horario":"L a V de 8  am a 10am, 5  pm a 9  pm y S de 8  am a 2  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/55.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.142776,9.93848 ]
+    },
+    "properties": {
+    "id":56,
+    "nombre":"Avenida Escazú Torre de Parqueos",
+    "link":"http://www.avenidaescazu.com/",
+    "telefono":"2288-5328",
+    "horario":"L a D 24 horas",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":30,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/56.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.043899,9.9233 ]
+    },
+    "properties": {
+    "id":58,
+    "nombre":"Apame Design",
+    "link":"www.apamedesign.com",
+    "telefono":"2224-4364",
+    "horario":"L a V de 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/58.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.130014,9.934267 ]
+    },
+    "properties": {
+    "id":59,
+    "nombre":"Escazú Village",
+    "link":"http://escazuvillage.com/",
+    "telefono":"2519-9676",
+    "horario":"L a D de 9  am a 8  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/59.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.92471,9.864501 ]
+    },
+    "properties": {
+    "id":60,
+    "nombre":"Coopeservidores Sede Cartago",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm y Ss de 9  am a 12  md.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/60.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08797,9.94134 ]
+    },
+    "properties": {
+    "id":61,
+    "nombre":"Coopeservidores Sede Centro de Innovación",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm y Ss de 9  am a 12  md.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":5,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/61.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.10116,9.93196 ]
+    },
+    "properties": {
+    "id":62,
+    "nombre":"Coopeservidores Sede Contraloría",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":5,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/62.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.438837,10.629815 ]
+    },
+    "properties": {
+    "id":63,
+    "nombre":"Coopeservidores Sede Liberia",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm y Ss de 9  am a 12  md.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/63.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08708,9.93731 ]
+    },
+    "properties": {
+    "id":64,
+    "nombre":"Coopeservidores Sede Oficinas Centrales",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm y Ss de 9  am a 12  md.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":9,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/64.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06986,9.93346 ]
+    },
+    "properties": {
+    "id":65,
+    "nombre":"Coopeservidores Sede Parque Nacional",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/65.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07551,9.92933 ]
+    },
+    "properties": {
+    "id":66,
+    "nombre":"Instituto Costarricense de Acueductos y Alcantarillados Sede Central",
+    "link":"https://www.aya.go.cr/SitePages/Principal.aspx",
+    "telefono":"2242-5000 Ext. 3078",
+    "horario":"L a V de 7  a.m. a 3  p.m.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":13,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/66.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.711343,11.0388154 ]
+    },
+    "properties": {
+    "id":67,
+    "nombre":"Escuela Melida García",
+    "link":"https://mapa.presidencia.go.cr/mep/escuela-melida-garcia-flores-los-chiles/",
+    "telefono":"",
+    "horario":"L a V de 7  am a 6  pm",
+    "tipo":"Privado",
+    "uso":"Estudiantes y colaboradores",
+    "capacidad":22,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/67.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.100022,10.014287 ]
+    },
+    "properties": {
+    "id":68,
+    "nombre":"Municipalidad San Rafael de Heredia",
+    "link":"https://www.munisrh.go.cr/",
+    "telefono":"2237-0789",
+    "horario":"L a V de 7  am a 3  pm. Jornada Continua.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/68.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.075656,9.936959 ]
+    },
+    "properties": {
+    "id":69,
+    "nombre":"Alianza Francesa",
+    "link":"https://alianzafrancesacostarica.com/",
+    "telefono":"2257-1438",
+    "horario":"L a D de 9  am a 8  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":3,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/69.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.163004,9.986499 ]
+    },
+    "properties": {
+    "id":70,
+    "nombre":"CITRIX",
+    "link":"https://lac.citrix.com/",
+    "telefono":"2589-9500",
+    "horario":"L a V de 8  am a 6  pm",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/70.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.189767,9.935199 ]
+    },
+    "properties": {
+    "id":71,
+    "nombre":"Plaza Murano",
+    "link":"http://www.plazamurano.com/",
+    "telefono":"2582-2314",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/71.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.938881,9.845153 ]
+    },
+    "properties": {
+    "id":72,
+    "nombre":"Municipalidad de El Guarco",
+    "link":"http://muniguarco.go.cr/",
+    "telefono":"2106-4600",
+    "horario":"L a V de 7:30 am a 3:30 pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/72.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.44435,10.62608 ]
+    },
+    "properties": {
+    "id":73,
+    "nombre":"Bac San José Sede Liberia",
+    "link":"https://www.baccredomatic.com/es-cr",
+    "telefono":"2295-9797",
+    "horario":"L a S de 9  am a 6  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":17,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/73.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0655411,9.9345726 ]
+    },
+    "properties": {
+    "id":74,
+    "nombre":"Parque Francia",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/74.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0711004,9.9352833 ]
+    },
+    "properties": {
+    "id":75,
+    "nombre":"Biblioteca Nacional",
+    "link":"https://si.cultura.cr/infraestructura/biblioteca-nacional-miguel-obregon-lizano.html",
+    "telefono":"2221-2436",
+    "horario":"L a V de 8  am a 6  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/75.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08715,9.91748 ]
+    },
+    "properties": {
+    "id":76,
+    "nombre":"Biblioteca Municipal Maria Luisa Porras Monge",
+    "link":"https://si.cultura.cr/infraestructura/biblioteca-municipal-maria-luisa-porras-monge.html",
+    "telefono":"2227-3423",
+    "horario":"L a J de 8  am a 4:30 pm - V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/76.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08268,9.9079884 ]
+    },
+    "properties": {
+    "id":77,
+    "nombre":"Biblioteca Municipal Emma Gamboa Alvarado",
+    "link":"https://si.cultura.cr/infraestructura/biblioteca-municipal-emma-gamboa.html",
+    "telefono":"2227-7967",
+    "horario":"L a J de 8  am a 4:30 pm - V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/77.2.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.10593,9.93057 ]
+    },
+    "properties": {
+    "id":78,
+    "nombre":"Biblioteca Municipal Tulio Perlaza Salazar",
+    "link":"https://si.cultura.cr/infraestructura/biblioteca-municipal-tulio-perlaza-salazar.html",
+    "telefono":"2232-7627",
+    "horario":"L a J de 8  am a 4:30 pm - V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/78.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"seguridad interna ",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08571,9.94206 ]
+    },
+    "properties": {
+    "id":79,
+    "nombre":"Biblioteca Municipal Rafael Ángel Calderón Guardia",
+    "link":"https://si.cultura.cr/infraestructura/biblioteca-municipal-rafael-angel-calderon-guardia.html",
+    "telefono":"2256-5944",
+    "horario":"L a J de 8  am a 4:30 pm - V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/79.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.05824,9.91279 ]
+    },
+    "properties": {
+    "id":80,
+    "nombre":"Biblioteca Municipal Rafael Ángel Arias Gómez",
+    "link":"https://si.cultura.cr/infraestructura/biblioteca-municipal-rafael-angel-arias-gomez.html",
+    "telefono":"2227-0061",
+    "horario":"L a J de 8  am a 4:30 pm - V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/80.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.15269,9.95495 ]
+    },
+    "properties": {
+    "id":81,
+    "nombre":"Biblioteca Municipal Carmen Lyra",
+    "link":"https://si.cultura.cr/infraestructura/biblioteca-municipal-carmen-lyra.html",
+    "telefono":"2213-0698",
+    "horario":"L a J de 8  am a 4:30 pm - V de 8  am a 4  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/81.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08197,9.9343 ]
+    },
+    "properties": {
+    "id":82,
+    "nombre":"Mercado Central de San José",
+    "link":"https://www.facebook.com/Mercado-Central-de-San-Jos%C3%A9-Costa-Rica-132271433523797/",
+    "telefono":"2547-6000",
+    "horario":"L a S de 6:30 am a 6  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/82.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.09469,9.93138 ]
+    },
+    "properties": {
+    "id":83,
+    "nombre":"Edificio José Figueres Ferrer",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"L a J de 7:30 a.m. a 4  p.m. y V de 7:30 a.m. a 3:30 p.m.",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":14,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/83.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.09482,9.93129 ]
+    },
+    "properties": {
+    "id":84,
+    "nombre":"Plantel Municipal - Municipalidad de San José",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"L a J de 7:30 a.m. a 4  p.m. y V de 7:30 a.m. a 3:30 p.m.",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/84.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.3133596,10.0724419 ]
+    },
+    "properties": {
+    "id":85,
+    "nombre":"Mercado Municipal de Grecia",
+    "link":"http://www.grecia.go.cr/",
+    "telefono":"2495-6203",
+    "horario":"L a V de 7:30 am a 4  pm, jornada continua",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":24,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/85.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.3118286,10.0731498 ]
+    },
+    "properties": {
+    "id":86,
+    "nombre":"Sector Norte Parque de Grecia",
+    "link":"http://www.grecia.go.cr/",
+    "telefono":"2495-6203",
+    "horario":"L a V de 7:30 am a 4  pm, jornada continua",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/86.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.3122086,10.0738156 ]
+    },
+    "properties": {
+    "id":87,
+    "nombre":"Plaza Helénica de Grecia",
+    "link":"http://www.grecia.go.cr/",
+    "telefono":"2495-6203",
+    "horario":"L a V de 7:30 am a 4  pm, jornada continua",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/87.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.3098364,10.0760927 ]
+    },
+    "properties": {
+    "id":88,
+    "nombre":"Estadio Municipal de Grecia",
+    "link":"http://www.grecia.go.cr/",
+    "telefono":"2495-6203",
+    "horario":"L a V de 7:30 am a 4  pm, jornada continua",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/88.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.3063711,10.0746734 ]
+    },
+    "properties": {
+    "id":89,
+    "nombre":"Polideportivo de Grecia",
+    "link":"http://www.grecia.go.cr/",
+    "telefono":"2495-6203",
+    "horario":"L a V de 7:30 am a 4  pm, jornada continua",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":24,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/89.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.05485,9.93709 ]
+    },
+    "properties": {
+    "id":90,
+    "nombre":"Parqueo Torres del Este",
+    "link":"https://www.acobo.com/",
+    "telefono":"2295-0300",
+    "horario":"L a V de 8  am a 5  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/90.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0753741,9.9380554 ]
+    },
+    "properties": {
+    "id":91,
+    "nombre":"Instituto Tecnológico de Costa Rica Centro Académico de San José",
+    "link":"https://www.tec.ac.cr/",
+    "telefono":"2257-0470",
+    "horario":"L a V de 8  am a 5  pm",
+    "tipo":"Privado",
+    "uso":"Estudiantes y colaboradores",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/91.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.52385,9.9115 ]
+    },
+    "properties": {
+    "id":92,
+    "nombre":"Municipalidad de Orotina",
+    "link":"http://muniorotina.go.cr/",
+    "telefono":"2428-8047",
+    "horario":"L a J de 7  am a 4  pm y \nV de 7  am a 3  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":24,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/92.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.196322,9.9515301 ]
+    },
+    "properties": {
+    "id":93,
+    "nombre":"Urban Plaza",
+    "link":"http://urbanplazacr.com/",
+    "telefono":"8888-0535",
+    "horario":"L a D de 6  am a 7  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":22,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/93.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0644795,9.935673 ]
+    },
+    "properties": {
+    "id":94,
+    "nombre":"Pachamama Macrobiótica y Arte",
+    "link":"https://www.facebook.com/Pachamama-Macrobi%C3%B3tica-y-Artes-180184929229714/",
+    "telefono":"8388-0786",
+    "horario":"L a D de 9  am a 7  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"Obsequio pequeño por compras superiores a ¢5.000\n",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/94.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.2627719,9.9501169 ]
+    },
+    "properties": {
+    "id":95,
+    "nombre":"Colegio Internacional Gredos San Diego",
+    "link":"http://www.gsdinternationalschool.cr/es/",
+    "telefono":"2201-9467",
+    "horario":"Miércoles a D de 9  am a 12  pm y de 13  pm a 18  pm",
+    "tipo":"Privado",
+    "uso":"Estudiantes y colaboradores",
+    "capacidad":60,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/95.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.11657,10.00626 ]
+    },
+    "properties": {
+    "id":96,
+    "nombre":"Automercado Barva de Heredia",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2262-2833",
+    "horario":"L a S de 7  am a 10  pm y D de 7  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/96.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0618361,9.9618096 ]
+    },
+    "properties": {
+    "id":97,
+    "nombre":"Automercado Moravia",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2297-0635",
+    "horario":"L a S de 7  am a 10  pm y D de 7  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/97.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1172074,9.9449629 ]
+    },
+    "properties": {
+    "id":98,
+    "nombre":"Automercado Plaza Mayor",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2232-5555",
+    "horario":"L a S de 7  am a 10  pm y D de 8  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/98.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1903272,9.9336083 ]
+    },
+    "properties": {
+    "id":99,
+    "nombre":"Automercado Río Oro Santa Ana",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2203-0346",
+    "horario":"L a S de 7  am a 10  pm y D de 7  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/99.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.145879,9.9983232 ]
+    },
+    "properties": {
+    "id":100,
+    "nombre":"Automercado San Francisco de Heredia",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2238-6177",
+    "horario":"L a S de 7  am a 10  pm y D de 7  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/100.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0766374,9.9863277 ]
+    },
+    "properties": {
+    "id":101,
+    "nombre":"Automercado Santo D de Heredia",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2438-9863",
+    "horario":"L a S de 7  am a 10  pm y D de 8  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/101.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0030259,9.9089642 ]
+    },
+    "properties": {
+    "id":102,
+    "nombre":"Automercado Tres Ríos",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2278-4433",
+    "horario":"L a S de 7  am a 10  pm y D de 8  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/102.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0411776,9.9287311 ]
+    },
+    "properties": {
+    "id":103,
+    "nombre":"Automercado Plaza del Sol",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2253-5306",
+    "horario":"L a S de 7  am a 10  pm y D de 7  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/103.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.2160459,10.0282943 ]
+    },
+    "properties": {
+    "id":104,
+    "nombre":"Automercado La Ceiba",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2431-2420",
+    "horario":"L a S de 7  am a 10  pm y D de 8  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/104.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.19363,9.95439 ]
+    },
+    "properties": {
+    "id":105,
+    "nombre":"Automercado Lindora",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2203-5335",
+    "horario":"L a S de 7  am a 10  pm y D de 8  am  a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/105.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.2617705,9.9565875 ]
+    },
+    "properties": {
+    "id":106,
+    "nombre":"Automercado La Guácima",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2438-5410",
+    "horario":"L a S de 7  am a 9  pm y Ds de 8  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/106.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0636696,9.934206 ]
+    },
+    "properties": {
+    "id":107,
+    "nombre":"Aguizotes",
+    "link":"https://www.facebook.com/casaaguizotes/",
+    "telefono":"2253-2624",
+    "horario":"L a V: 11 am-1 am, S: 12md-1  am y D: 11am-11 pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"10% [válido individualmente al presentar casco]",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/107.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"cámaras ",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0252,9.91816 ]
+    },
+    "properties": {
+    "id":109,
+    "nombre":"Universidad Autónoma de Centro América (UACA)",
+    "link":"http://www.uaca.ac.cr/",
+    "telefono":"2272-9100",
+    "horario":"L a V de 8  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Estudiantes y colaboradores",
+    "capacidad":24,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/109.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0936934,9.9094871 ]
+    },
+    "properties": {
+    "id":110,
+    "nombre":"Bambú Eco Urbano",
+    "link":"http://www.rcinmobiliaria.cr/bambu-eco-urbano/",
+    "telefono":"4010-1400",
+    "horario":"L a D de 10  am a 6  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/110.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.03688,9.88956 ]
+    },
+    "properties": {
+    "id":112,
+    "nombre":"Parque La Libertad",
+    "link":"http://parquelalibertad.org/",
+    "telefono":"2276-9400",
+    "horario":"L a D de 8  am a 5  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/112.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0394962,9.9167063 ]
+    },
+    "properties": {
+    "id":113,
+    "nombre":"Parque Jose María Zeledón - Muni Curri Bienes de Costa Rica",
+    "link":"http://www.curridabat.go.cr/",
+    "telefono":"2216-5200",
+    "horario":"L a J de 7:30 a.m. a 4  p.m. y V de 7:30 a.m. a 3:30 p.m.",
+    "tipo":"Público",
+    "uso":"Visitante",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/113.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.142116,9.9393793 ]
+    },
+    "properties": {
+    "id":114,
+    "nombre":"Gensler",
+    "link":"https://www.gensler.com/offices/san-jose-costa-rica",
+    "telefono":"2505-3700",
+    "horario":"L a V de 8  am a 5  pm",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/114.11.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1240531,9.9436049 ]
+    },
+    "properties": {
+    "id":115,
+    "nombre":"Colegio Humboldt",
+    "link":"https://www.humboldt.ed.cr/contenido/",
+    "telefono":"2232-1455",
+    "horario":"L a V de 7:30 am a 2:30 p.m",
+    "tipo":"Privado",
+    "uso":"Estudiantes y colaboradores",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/115.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1713667,9.9887157 ]
+    },
+    "properties": {
+    "id":116,
+    "nombre":"3M El Cafetal",
+    "link":"https://www.3m.co.cr/3M/es_CR/inicio/",
+    "telefono":"2277-1000",
+    "horario":"L a D de 8  am a 7  pm",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/116.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.8335598,9.9771897 ]
+    },
+    "properties": {
+    "id":117,
+    "nombre":"Coopeservidores Sede Puntarenas",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/4.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1534064,9.9439229 ]
+    },
+    "properties": {
+    "id":118,
+    "nombre":"Centro Corporativo Plaza Roble",
+    "link":"http://www.plazaroble.com/",
+    "telefono":"2201-1300",
+    "horario":"De L a D de 8  am a 6  pm",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":25,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/118.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.131904,9.9938575 ]
+    },
+    "properties": {
+    "id":119,
+    "nombre":"Oxígeno Human Playground",
+    "link":"https://www.facebook.com/pages/biz/OX%C3%8DGENO-Human-Playground-1795243804030710/",
+    "telefono":"2520-6151",
+    "horario":"L a L de 10  a 11:59pm",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":100,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/119.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.93991,9.84514 ]
+    },
+    "properties": {
+    "id":120,
+    "nombre":"Instituto Costarricense de Acueductos y Alcantarillados El Guarco",
+    "link":"https://www.aya.go.cr/SitePages/Principal.aspx",
+    "telefono":"2242-5000 Ext. 3078",
+    "horario":"L a V de 7  a.m. a 3  p.m.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/120.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.0926203,10.4255066 ]
+    },
+    "properties": {
+    "id":121,
+    "nombre":"Coopeservidores Sede Cañas",
+    "link":"https://www.coopeservidores.fi.cr",
+    "telefono":"2243-9500",
+    "horario":"L a V de 9  am a 5:30 pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/4.1.png",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0436248,9.9637727 ]
+    },
+    "properties": {
+    "id":122,
+    "nombre":"FUPROVI",
+    "link":"http://www.fuprovi.org/",
+    "telefono":"2247-0000",
+    "horario":"L a V de 8  am a 5  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/122.1.JPG",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.043597,9.9642984 ]
+    },
+    "properties": {
+    "id":122,
+    "nombre":"FUPROVI",
+    "link":"http://www.fuprovi.org/",
+    "telefono":"2247-0000",
+    "horario":"L a V de 8  am a 5  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/122.2.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.914824,9.862039 ]
+    },
+    "properties": {
+    "id":123,
+    "nombre":"MUCAP",
+    "link":"https://www.mucap.fi.cr/",
+    "telefono":"2550-8418",
+    "horario":"L a V de 8  am a 6  pm y Ss de 8  am a 11:30 am",
+    "tipo":"Público",
+    "uso":"Colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/123.1.JPG",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.12862,9.96862 ]
+    },
+    "properties": {
+    "id":124,
+    "nombre":"Bambú 106",
+    "link":"http://www.rcinmobiliaria.cr/bambu-106/",
+    "telefono":"4010-1400",
+    "horario":"L a D de 10  am a 6  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/124.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.12888,9.96708 ]
+    },
+    "properties": {
+    "id":124,
+    "nombre":"Bambú 106",
+    "link":"http://www.rcinmobiliaria.cr/bambu-106/",
+    "telefono":"4010-1400",
+    "horario":"L a D de 10  am a 6  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"Images/124.2.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1289,9.96758 ]
+    },
+    "properties": {
+    "id":124,
+    "nombre":"Bambú 106",
+    "link":"http://www.rcinmobiliaria.cr/bambu-106/",
+    "telefono":"4010-1400",
+    "horario":"L a D de 10  am a 6  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"Images/124.3.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0610582,9.9322344 ]
+    },
+    "properties": {
+    "id":125,
+    "nombre":"Automercado Los Yoses",
+    "link":"http://www.automercado.cr/",
+    "telefono":"2438-5410",
+    "horario":"L a S de 7  am a 9  pm y Ds de 8  am a 9  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/125.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"cámaras ",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07194,9.93485 ]
+    },
+    "properties": {
+    "id":126,
+    "nombre":"Tribunal Supremo de Elecciones – Externo",
+    "link":"http://www.tse.go.cr/",
+    "telefono":"2287-5555",
+    "horario":"L a V de 8  am a 4  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":28,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/126.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0724,9.93487 ]
+    },
+    "properties": {
+    "id":126,
+    "nombre":"Tribunal Supremo de Elecciones – Colaboradores",
+    "link":"http://www.tse.go.cr/",
+    "telefono":"2287-5555",
+    "horario":"L a V de 8  am a 4  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":28,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/126.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.09159,9.93212 ]
+    },
+    "properties": {
+    "id":127,
+    "nombre":"Centro Corporativo Internacional",
+    "link":"http://www.hogaresdecostarica.com/",
+    "telefono":"2258-5660",
+    "horario":"L a V de 7:30 am a 5 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/127.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06872,9.91371 ]
+    },
+    "properties": {
+    "id":129,
+    "nombre":"Burger King Sede Parque de la Paz",
+    "link":"http://www.burgerking.co.cr/",
+    "telefono":"4702-7727",
+    "horario":"L a D de 10  am a 10  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/129.2.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.05633,9.93216 ]
+    },
+    "properties": {
+    "id":130,
+    "nombre":"Burger King Sede San Pedro",
+    "link":"http://www.burgerking.co.cr/",
+    "telefono":"4702-7727",
+    "horario":"L a D de 10  am a 10  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/130.2.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.44683,10.63366 ]
+    },
+    "properties": {
+    "id":131,
+    "nombre":"Avantica Sede Liberia",
+    "link":"https://www.avantica.net/",
+    "telefono":"2283-9100",
+    "horario":"L a V de 8  am a 6  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/131.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.19557,9.9516 ]
+    },
+    "properties": {
+    "id":132,
+    "nombre":"Plaza Futura - Rojas Arquitectos",
+    "link":"http://www.rojasarquitectos.com/",
+    "telefono":"",
+    "horario":"L a L de 07  a 09 pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"ucp",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/132.1.JPG",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.62524,9.61168 ]
+    },
+    "properties": {
+    "id":133,
+    "nombre":"Centro Comercial Jacó Walk",
+    "link":"http://www.jacowalk.com/",
+    "telefono":"2643-4757",
+    "horario":"L a D de 8  am a 10  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":14,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Puntarenas",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/133.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1428627,9.93973 ]
+    },
+    "properties": {
+    "id":134,
+    "nombre":"Coverings Avenida Escazú",
+    "link":"http://www.avenidaescazu.com/",
+    "telefono":"2288-5328",
+    "horario":"L a D 24 horas",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":30,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/190.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1435692,9.9378502 ]
+    },
+    "properties": {
+    "id":134,
+    "nombre":"Rest. Bulali Avenida Escazú",
+    "link":"http://www.avenidaescazu.com/",
+    "telefono":"2288-5328",
+    "horario":"L a D 24 horas",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":30,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/134.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.14298,9.93695 ]
+    },
+    "properties": {
+    "id":134,
+    "nombre":"Texas University Avenida Escazú",
+    "link":"http://www.avenidaescazu.com/",
+    "telefono":"2288-5328",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":30,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/0191.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.8902,9.83945 ]
+    },
+    "properties": {
+    "id":135,
+    "nombre":"Jardin Botánico Lankester",
+    "link":"http://jbl.ucr.ac.cr/",
+    "telefono":"2511-7939",
+    "horario":"L a D de 8:30am a 4:30pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.16982,9.99058 ]
+    },
+    "properties": {
+    "id":136,
+    "nombre":"San Antonio Business Park",
+    "link":"http://sanantoniobp.cr/es/",
+    "telefono":"2288-0101",
+    "horario":"L a D 24 horas",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":47,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/136.1.JPG",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.20762,10.00298 ]
+    },
+    "properties": {
+    "id":137,
+    "nombre":"Mango Plaza",
+    "link":"http://mangoplaza.cr/",
+    "telefono":"2519-9216",
+    "horario":"L a D de 11  am a 8  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/137.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.16045,9.98102 ]
+    },
+    "properties": {
+    "id":138,
+    "nombre":"Plaza Real Cariari",
+    "link":"http://plazarealcariari.com/",
+    "telefono":"2293-3827",
+    "horario":"L a D de 11  am a 8  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":30,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/138.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.10858,9.93144 ]
+    },
+    "properties": {
+    "id":139,
+    "nombre":"AraTours",
+    "link":"https://www.aratours.com/",
+    "telefono":"2232-0400",
+    "horario":"L a S de 8 am a 6 pm",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/139.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.33814,10.05738 ]
+    },
+    "properties": {
+    "id":140,
+    "nombre":"Condominio Montezuma",
+    "link":"https://fusioninmobiliariacr.com/montezuma/",
+    "telefono":"2495-6000",
+    "horario":"L a D 24 horas",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/140.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1247,9.95046 ]
+    },
+    "properties": {
+    "id":141,
+    "nombre":"Consejo Nacional de Rectores",
+    "link":"https://www.conare.ac.cr/",
+    "telefono":"2519-5700",
+    "horario":"L a V de 7 am a 4 pm",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/141.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.6836629,10.6260563 ]
+    },
+    "properties": {
+    "id":142,
+    "nombre":"Complejo Península Papagayo Diseños y Jardines",
+    "link":"http://dyjcr.com/",
+    "telefono":"2234-9020",
+    "horario":"L a D 24 horas",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/142.1.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.03976,9.92775 ]
+    },
+    "properties": {
+    "id":143,
+    "nombre":"Ifreses",
+    "link":"http://ifreses.com/",
+    "telefono":"2253-5050",
+    "horario":"L a D 24 horas",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.00773,9.97612 ]
+    },
+    "properties": {
+    "id":144,
+    "nombre":"Parque Central Municipalidad de Coronado",
+    "link":"https://www.coromuni.go.cr/",
+    "telefono":"2216-0600",
+    "horario":"L a D 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/144.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1866,9.93424 ]
+    },
+    "properties": {
+    "id":145,
+    "nombre":"Santa Ana Town Center",
+    "link":"http://www.santaanatowncenter.com/",
+    "telefono":"2283-7803",
+    "horario":"L a D de 8:30am a 9:30pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.182,10.03027 ]
+    },
+    "properties": {
+    "id":146,
+    "nombre":"Complejo Ecológico Municipalidad de Desamparados",
+    "link":"https://www.desamparados.go.cr/es",
+    "telefono":"2217-3500",
+    "horario":"L a V de 8 am a 4 pm",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":40,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/146.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.18872,9.99994 ]
+    },
+    "properties": {
+    "id":147,
+    "nombre":"Oficentro Plaza Aeropuerto",
+    "link":"www.plazaaeropuerto.com/es/",
+    "telefono":"2432-5444",
+    "horario":"L a V de 8 am a 7 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/147.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07494,9.93221 ]
+    },
+    "properties": {
+    "id":148,
+    "nombre":"Barrio Chino",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/148.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0754,9.9317 ]
+    },
+    "properties": {
+    "id":149,
+    "nombre":"POPS Ciclovía",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/149.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0775465,9.9321691 ]
+    },
+    "properties": {
+    "id":150,
+    "nombre":"Boulevar Av 4 Calle 2",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/150.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07537,9.93562 ]
+    },
+    "properties": {
+    "id":151,
+    "nombre":"Parque Morazán",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/151.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07463,9.93538 ]
+    },
+    "properties": {
+    "id":152,
+    "nombre":"Bar Social",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"20% [válido individualmente al presentar casco]",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/152.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06933,9.93489 ]
+    },
+    "properties": {
+    "id":153,
+    "nombre":"Estación Tren al Atlántico",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":12,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/153.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0718925,9.9326697 ]
+    },
+    "properties": {
+    "id":154,
+    "nombre":"Plaza de la Democracia (Entrada Museo Nacional)",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/154.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07087,9.9336 ]
+    },
+    "properties": {
+    "id":155,
+    "nombre":"Plaza de la Democracia (Asamblea Legislativa)",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/155.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámaras",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07309,9.93223 ]
+    },
+    "properties": {
+    "id":156,
+    "nombre":"Lobo Estepario",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/156.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07098,9.93282 ]
+    },
+    "properties": {
+    "id":157,
+    "nombre":"Boulevar Av 2 Calle 17",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/157.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08118,9.93365 ]
+    },
+    "properties": {
+    "id":158,
+    "nombre":"Banco de Costa Rica (Sede Central)",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/158.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.08001,9.93402 ]
+    },
+    "properties": {
+    "id":159,
+    "nombre":"El Tostador",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/159.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0794576,9.9330694 ]
+    },
+    "properties": {
+    "id":160,
+    "nombre":"Parque Central San José 2",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/160.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0799699,9.9329155 ]
+    },
+    "properties": {
+    "id":161,
+    "nombre":"Parque Central San José 1",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/161.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07697,9.93317 ]
+    },
+    "properties": {
+    "id":162,
+    "nombre":"Frente Teatro Nacional",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/162.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.077298,9.9345413 ]
+    },
+    "properties": {
+    "id":163,
+    "nombre":"Trigo Miel Calle 0",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/163.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0764232,9.9337617 ]
+    },
+    "properties": {
+    "id":164,
+    "nombre":"Plaza de la Cultura",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/164.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.130905,9.9382075 ]
+    },
+    "properties": {
+    "id":165,
+    "nombre":"Tajo Municipal Pavas",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/165.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1445612,9.9482781 ]
+    },
+    "properties": {
+    "id":166,
+    "nombre":"CECUDI PAVAS",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/166.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1318867,9.9540583 ]
+    },
+    "properties": {
+    "id":167,
+    "nombre":"Centro Recreativo Municipal",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/167.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1048195,9.9380947 ]
+    },
+    "properties": {
+    "id":168,
+    "nombre":"Parque Metropolitana La Sabana (Frente a la Sabana)",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/168.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1049481,9.9197152 ]
+    },
+    "properties": {
+    "id":169,
+    "nombre":"CECUDI Hatillo",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/169.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1049238,9.918812 ]
+    },
+    "properties": {
+    "id":170,
+    "nombre":"Centro Acopio Hatillo",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/170.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0866437,9.9166333 ]
+    },
+    "properties": {
+    "id":171,
+    "nombre":"Sección de Parques",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/171.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.088433,9.9221952 ]
+    },
+    "properties": {
+    "id":172,
+    "nombre":"Corredor Biológico",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/172.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0931937,9.9294574 ]
+    },
+    "properties": {
+    "id":173,
+    "nombre":"Mayoreo Contíguo Municipalidad de San José",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/173.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0920119,9.9316047 ]
+    },
+    "properties": {
+    "id":174,
+    "nombre":"Torre C",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/174.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0881308,9.9328755 ]
+    },
+    "properties": {
+    "id":175,
+    "nombre":"Junta de Protección Social",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/175.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Cámaras ",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0849231,9.9334278 ]
+    },
+    "properties": {
+    "id":176,
+    "nombre":"Parque La Merced",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/176.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0797571,9.928949 ]
+    },
+    "properties": {
+    "id":177,
+    "nombre":"Parque Iglesia La Dolorosa",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/177.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0792706,9.9279497 ]
+    },
+    "properties": {
+    "id":178,
+    "nombre":"Clínica Biblíca",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/178.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Cámaras ",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0750961,9.9275515 ]
+    },
+    "properties": {
+    "id":179,
+    "nombre":"Consejo Municipal",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/179.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07514,9.92834 ]
+    },
+    "properties": {
+    "id":180,
+    "nombre":"Banco de Costa Rica (Sede Barrio Chino)",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/180.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0703796,9.9291409 ]
+    },
+    "properties": {
+    "id":181,
+    "nombre":"Banco Nacional (Barrio Luján)",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/181.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Cámaras ",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06935,9.92992 ]
+    },
+    "properties": {
+    "id":182,
+    "nombre":"Gerencia de Pensiones",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/182.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.076444,9.9313566 ]
+    },
+    "properties": {
+    "id":183,
+    "nombre":"Mercado de Artesanias",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/183.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0764,9.93367 ]
+    },
+    "properties": {
+    "id":184,
+    "nombre":"Moyo Avenida Central",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/184.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0763596,9.9318262 ]
+    },
+    "properties": {
+    "id":185,
+    "nombre":"Caja Costarricense del Seguro Social (sobre Ciclo Vía)",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/185.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0749051,9.9336243 ]
+    },
+    "properties": {
+    "id":186,
+    "nombre":"Inicio Boulevar Avenida Central",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/186.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07468,9.92498 ]
+    },
+    "properties": {
+    "id":187,
+    "nombre":"Plaza Viquez",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Parque y Entretenimiento",
+    "urlImg":"images/187.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06844,9.94001 ]
+    },
+    "properties": {
+    "id":188,
+    "nombre":"Feria Verde",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/188.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.09899,9.93535 ]
+    },
+    "properties": {
+    "id":189,
+    "nombre":"Museo de Arte Costarricense",
+    "link":"https://www.msj.go.cr/SitePages/home.aspx",
+    "telefono":"2547-6000",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/189.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0191,9.9229 ]
+    },
+    "properties": {
+    "id":190,
+    "nombre":"Condominio Nueve84",
+    "link":"http://nueve84curridabat.com/",
+    "telefono":"2208-8776",
+    "horario":"Abierto 24 horas",
+    "tipo":"Privado",
+    "uso":"Visitante",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/190.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0691,9.89996 ]
+    },
+    "properties": {
+    "id":191,
+    "nombre":"Multicentro Desamparados",
+    "link":"http://www.mallmulticentro.com/",
+    "telefono":"2259-0819",
+    "horario":"L a D 9 am a 10 pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/191.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.20725,10.0129 ]
+    },
+    "properties": {
+    "id":192,
+    "nombre":"Centro Comercial Plaza Real Alajuela",
+    "link":"https://plazareal.co.cr/",
+    "telefono":"2441-6068",
+    "horario":"L a D 6 am a 2 am",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":8,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"kc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/192.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0965,9.9362 ]
+    },
+    "properties": {
+    "id":193,
+    "nombre":"Sphera Sostenible",
+    "link":"http://www.spherasostenible.com/home",
+    "telefono":"2248-4420",
+    "horario":"L a V 8 am a 6 pm",
+    "tipo":"Privado",
+    "uso":"Clientes y Visitante",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo, duchas, lockers e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/193.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.11996,9.9448 ]
+    },
+    "properties": {
+    "id":194,
+    "nombre":"Parque Llama del Bosque en Rohrmoser GIZ",
+    "link":"https://es.foursquare.com/v/parque-llama-del-bosque/4e3814cbd22d4cf95ee722df",
+    "telefono":"4001-5457",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Público en general",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/194.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07223,9.93385 ]
+    },
+    "properties": {
+    "id":195,
+    "nombre":"Asamblea Legislativa GIZ",
+    "link":"",
+    "telefono":"4001-5458",
+    "horario":"L a V  8 am a 6 pm",
+    "tipo":"Privado",
+    "uso":"Visitante",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/195.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.05521,9.96234 ]
+    },
+    "properties": {
+    "id":196,
+    "nombre":"Centro Comercial Lincoln Plaza",
+    "link":"http://lincolnplaza.cr/",
+    "telefono":"2519-9212",
+    "horario":"L-S 10  a.m. a 9  p.m. - D. 10  a.m. a 8  p.m.",
+    "tipo":"Privado",
+    "uso":"Publico en general",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/196.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.19812,9.93484 ]
+    },
+    "properties": {
+    "id":197,
+    "nombre":"Agapanthus / Constructora Eliseo Vargas",
+    "link":"http://www.condominioagapanthus.com/",
+    "telefono":"2203-5141",
+    "horario":"Abierto 24 horas",
+    "tipo":"Privado",
+    "uso":"Clientes",
+    "capacidad":35,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/197.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.95174,9.86752 ]
+    },
+    "properties": {
+    "id":198,
+    "nombre":"Zona Franca La Lima ",
+    "link":"https://www.lalimafreezone.com",
+    "telefono":"2205-600 ",
+    "horario":"Abierto 24 horas",
+    "tipo":"Privado",
+    "uso":"Visitante e Inquilinos",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0547788,9.9369239 ]
+    },
+    "properties": {
+    "id":199,
+    "nombre":"Rejuvenese SPA S.A. ",
+    "link":"-",
+    "telefono":"7205-8637",
+    "horario":"Privado",
+    "tipo":"Privado",
+    "uso":"Visitante e Inquilinos",
+    "capacidad":2,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.067691,9.935603 ]
+    },
+    "properties": {
+    "id":200,
+    "nombre":"Servicios educativos Dakota II Univerddad Internacional de las Américas",
+    "link":"https://www.uia.ac.cr/",
+    "telefono":" 221-5500",
+    "horario":"L a D 8 am a 8 pm",
+    "tipo":"Privado",
+    "uso":"Visitante e Inquilinos",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/200.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0571398,9.9367126 ]
+    },
+    "properties": {
+    "id":201,
+    "nombre":"Edificio DUO ACOBO ",
+    "link":"https://www.acobo.com/",
+    "telefono":"2295-0300",
+    "horario":"Abierto 24 horas",
+    "tipo":"Privado",
+    "uso":"Publico en general",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.065841,9.932738 ]
+    },
+    "properties": {
+    "id":202,
+    "nombre":"URBN Escalante / BILCO Constructora",
+    "link":"https://urbnescalante.com/",
+    "telefono":"4002-0202",
+    "horario":"Abierto 24 horas",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":14,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/202.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.054898,9.9283179 ]
+    },
+    "properties": {
+    "id":203,
+    "nombre":"Banco Central - Van der Lat & Jimenez ",
+    "link":"http://www.vjcr.net/",
+    "telefono":"2224-0574",
+    "horario":"L a D 8 am a 8 pm",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.09031,9.9792 ]
+    },
+    "properties": {
+    "id":204,
+    "nombre":"Banco Nacional Santo Domingo Heredia / Suplidora Hotelera SantaMaria ",
+    "link":"https://www.bncr.fi.cr/SitePages/Inicio.aspx",
+    "telefono":"2212-2000",
+    "horario":"L a D 8 am a 8 pm",
+    "tipo":"Privado",
+    "uso":"Clientes y Visitante",
+    "capacidad":14,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Heredia",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/204.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.6395,9.36855 ]
+    },
+    "properties": {
+    "id":205,
+    "nombre":"Constructora Ingesur",
+    "link":"https://www.facebook.com/ConstructoraIngesur/",
+    "telefono":"2770-3867",
+    "horario":"L a D 7 am a 5 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":5,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.1902414,9.9483039 ]
+    },
+    "properties": {
+    "id":206,
+    "nombre":"Claro CR Telecomunicaciones / Herrera y Bandek ",
+    "link":"https://www.facebook.com/Herrera-y-Bandek-1585410711776569/",
+    "telefono":"7002-7002",
+    "horario":"L a D 7 am a 5 pm",
+    "tipo":"Privado",
+    "uso":"Clientes y Visitante",
+    "capacidad":4,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/206.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.077379,9.9622477 ]
+    },
+    "properties": {
+    "id":207,
+    "nombre":"Burger King Tibás ",
+    "link":"http://www.burgerking.co.cr/",
+    "telefono":"4702-7727",
+    "horario":"L a D 10  am a 10  pm",
+    "tipo":"Público",
+    "uso":"Clientes",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/207.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0590912,9.93433 ]
+    },
+    "properties": {
+    "id":208,
+    "nombre":"Bellos Jardines Sabanilla S.A. Diseño y jardines Papagayo",
+    "link":"",
+    "telefono":"2666-2275",
+    "horario":"L a D 7 am a 5 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"",
+    "provincia":"Guanacaste",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.13459,9.92941 ]
+    },
+    "properties": {
+    "id":209,
+    "nombre":"Burger King Escazú",
+    "link":"http://www.burgerking.co.cr/",
+    "telefono":"4702-7727",
+    "horario":"L a D 10  am a 10  pm",
+    "tipo":"Privado",
+    "uso":"Colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/209.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.11232,9.99747 ]
+    },
+    "properties": {
+    "id":210,
+    "nombre":"Burger King Heredia",
+    "link":"http://www.burgerking.co.cr/",
+    "telefono":"4702-7727",
+    "horario":"L a D 10  am a 10  pm",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Hoteles y Restaurante",
+    "urlImg":"images/210.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.12428,9.94257 ]
+    },
+    "properties": {
+    "id":211,
+    "nombre":"Embajada de los Estado Unidos ",
+    "link":"https://cr.usembassy.gov/es/",
+    "telefono":"2519-0000",
+    "horario":"L a V 8 am a 4 pm",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/211.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07793,9.92508 ]
+    },
+    "properties": {
+    "id":212,
+    "nombre":"Dirección General Policía de Tránsito / GIZ",
+    "link":"https://www.transito.go.cr/Dir-General/Paginas/Organigrama/DGPT.aspx",
+    "telefono":"2523-3300",
+    "horario":"L a V 6 am a 6 pm",
+    "tipo":"Privado",
+    "uso":"Clientes y Visitante",
+    "capacidad":10,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"Descuento",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/212.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06755,9.92952 ]
+    },
+    "properties": {
+    "id":213,
+    "nombre":"Cambio Climático  y Transporte en Costa Rica / GIZ MINAE",
+    "link":"https://www.giz.de/en/html/index.html",
+    "telefono":"2520-1535",
+    "horario":"L a V 8 am a 6 pm",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/213.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06387,9.93507 ]
+    },
+    "properties": {
+    "id":214,
+    "nombre":"Cafetería FRANCO",
+    "link":"https://www.franco.cr/",
+    "telefono":"4082-7006",
+    "horario":"L a D 7 am a 11 pm",
+    "tipo":"Privado",
+    "uso":"Clientes y Visitante",
+    "capacidad":3,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/214.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.20881,10.01347 ]
+    },
+    "properties": {
+    "id":215,
+    "nombre":"Plaza Tropicana / NOPAL S.A.",
+    "link":"",
+    "telefono":"2431-1818",
+    "horario":"L a D 7 am a 11 pm",
+    "tipo":"Privado",
+    "uso":"Estudiantes y colaboradores",
+    "capacidad":5,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Alajuela",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.05715,9.93662 ]
+    },
+    "properties": {
+    "id":216,
+    "nombre":"Arquitectura e Ingeniería Empresarial / edificio DUO ACOBO",
+    "link":"http://aieconstruccion.com/",
+    "telefono":"4052-5243",
+    "horario":"L a V 8 am a 4 pm",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":16,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Inmobiliaria y Negocios",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.04789,9.941 ]
+    },
+    "properties": {
+    "id":217,
+    "nombre":"UNED Universidad Estatal a Distancia",
+    "link":"https://www.uned.ac.cr/",
+    "telefono":"2527-2000",
+    "horario":"L a V 8 am a 8 pm",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/217.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.07116,9.93201 ]
+    },
+    "properties": {
+    "id":218,
+    "nombre":"Chietón Morén Museo y Mercadito de Artesanías",
+    "link":"https://www.chietonmoren.org/",
+    "telefono":"2221-0145",
+    "horario":"L a V 10 am a 6 pm",
+    "tipo":"Privado",
+    "uso":"Estudiantes y colaboradores",
+    "capacidad":5,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/218.jpg",
+    "seguridad":"sinSeguridad",
+    "tipoSeguridad":"",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.055,9.91836 ]
+    },
+    "properties": {
+    "id":219,
+    "nombre":"Correos de Costa Rica sede Zapote",
+    "link":"https://www.correos.go.cr/",
+    "telefono":"2202-2900",
+    "horario":"L a V 8  am a 5  pm.",
+    "tipo":"Público",
+    "uso":"Clientes y Visitante",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/219.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.12965,9.9629 ]
+    },
+    "properties": {
+    "id":220,
+    "nombre":"Instituto Nacional de Aprendizaje INA / Sede parque de Diversiones",
+    "link":"http://www.ina.ac.cr/",
+    "telefono":"2210-6000",
+    "horario":"L a V 7 am a 3 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":20,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Educativo",
+    "urlImg":"images/220.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.11516,9.94168 ]
+    },
+    "properties": {
+    "id":221,
+    "nombre":"TriBca Alberto Broutin",
+    "link":"http://tribca.cr/",
+    "telefono":"6050-2450",
+    "horario":"Abierto 24 horas",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":6,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.04976,9.91721 ]
+    },
+    "properties": {
+    "id":222,
+    "nombre":"Instituto Nacional de Seguros INS Sede Curridabat",
+    "link":"http://www.ins-cr.com/index.html",
+    "telefono":"2287-6000",
+    "horario":"L a V 8  am a 5  pm.",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"CicloParqueo e inflador",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"tc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/222.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.95371,9.86633 ]
+    },
+    "properties": {
+    "id":223,
+    "nombre":"Coloplast Volume Manufacturing Costa Rica S.A",
+    "link":"https://www.coloplast.com/contact/distributors/",
+    "telefono":"2250-2457",
+    "horario":"L a V 7  am a 3  pm.",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":10,
+    "facilidades":"CicloParqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"sinTecho"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.06665,9.922 ]
+    },
+    "properties": {
+    "id":224,
+    "nombre":"Laser Works LWS ",
+    "link":"http://www.lws-cr.com/",
+    "telefono":"2234-2706",
+    "horario":"L a V 8  am a 5  pm.",
+    "tipo":"Privado",
+    "uso":"Clientes y colaboradores",
+    "capacidad":7,
+    "facilidades":"Cicloparqueo, duchas y lockers",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"kcp",
+    "categoriaNegocio":"Servicios",
+    "urlImg":"images/4.1.png",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna + Cámara",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.05736,9.93453 ]
+    },
+    "properties": {
+    "id":225,
+    "nombre":"Sigma Business Center",
+    "link":" https://www.facebook.com/SigmaBusinessCenter/",
+    "telefono":"800-795-3727",
+    "horario":"L a D 6 am a 10 pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":19,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"San José",
+    "categoriaCicloParqueos":"uc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/225.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.91836,9.8626 ]
+    },
+    "properties": {
+    "id":226,
+    "nombre":"Avantica Sede Cartago",
+    "link":"https://www.avantica.net/",
+    "telefono":"2283-9100",
+    "horario":"L a V de 8  am a 6  pm",
+    "tipo":"Público",
+    "uso":"Clientes y colaboradores",
+    "capacidad":7,
+    "facilidades":"Cicloparqueo",
+    "beneficio":"sinBeneficio",
+    "beneficioDetalle":"",
+    "provincia":"Cartago",
+    "categoriaCicloParqueos":"dc",
+    "categoriaNegocio":"Comercial",
+    "urlImg":"images/226.jpg",
+    "seguridad":"Seguridad",
+    "tipoSeguridad":"Interna",
+    "techo":"Techado"
+    }
+  }
+]
+}

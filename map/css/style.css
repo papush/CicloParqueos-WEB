@@ -1,0 +1,313 @@
+
+body {
+
+  color: #404040;
+  font: 13px 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased; }
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font: 'Open Sans', sans-serif;
+}
+
+#parqueos {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  width: 175px;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.marker {
+border: none;
+cursor: pointer;
+height: 30px;
+width: 30px;
+background-image: url(marker.png);
+background-color: rgba(0, 0, 0, 0);
+}
+
+.marker-cluster-medium {
+	background-color: rgba(38, 180, 275, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(37, 170, 255, 0.6);
+	}
+
+
+.map {
+  position:absolute;
+width: 100%;
+top:0;bottom:0;
+}
+.center{
+text-align:center;
+
+}
+.logo {
+  display:block;
+  width: 50%;
+  height: 50%;
+}
+
+.quiet {
+color:#888;
+}
+
+::-webkit-scrollbar {
+width:3px;
+height:3px;
+border-left:0;
+background:rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-track {
+background:none;
+}
+::-webkit-scrollbar-thumb {
+background:#00853e;
+border-radius:0;
+}
+
+
+.heading {
+  background:#fff;
+  border-bottom:1px solid #eee;
+  height:100px;
+  line-height:60px;
+  padding:0 10px;
+  position: absolute;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+ transition: margin-left .5s;
+ padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+ .sidenav a {font-size: 18px;}
+}
+
+img {
+size: 50%;
+display:inline-block;
+margin: 0 auto;
+}
+
+.popup {
+  overflow: auto;
+  font: 10px 'Open Sans', sans-serif;
+  width: 250px;
+  height: 345px;
+
+
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 185;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ button { display: block; margin: 0 auto;
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font: 12px 'Open Sans', sans-serif;
+  margin: 1%
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .opciones {
+
+  }
+
+  .sidebar {
+    display: none;
+    /*display: none; /* Hidden by default */
+    position: fixed;
+    /*z-index: 1;*/
+    width: 175px;
+    height: 72%;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: auto;
+    right: 0;
+    margin-bottom: 100px;
+  }
+
+.listings {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+.listings .item {
+  display: block;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-decoration: none;
+  text-align:center;
+}
+
+.listings .item:last-child { border-bottom: none; }
+
+.listings .item .title {
+  display: block;
+  color: #00853e;
+  font-weight: 700;
+}
+
+.listings .item .title small { font-weight: 400; }
+
+.listings .item.active .title,
+.listings .item .title:hover { color: #8cc63f; }
+
+.listings .item.active {
+  background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  border-left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00853e;
+  border-radius: 0;
+}
+
+a {
+  color:#404040;
+  text-decoration:none;
+  font-weight: bold;
+}
+a:hover { color:#101010; }
+
+
+.kcp {
+  display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url(https://i.imgur.com/Hlrl7OA.png) no-repeat;
+ width: 100px;
+ height: 50px;
+}
+.uc {
+  display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url(https://i.imgur.com/gnJe6tD.png) no-repeat;
+ width: 100px;
+ height: 50px;
+}
+.dc {
+  display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url(https://i.imgur.com/QqFsA4G.png) no-repeat;
+ width: 100px;
+ height: 50px;
+}
+.tc {
+  display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url(https://i.imgur.com/eGD1rnT.png) no-repeat;
+ width: 100px;
+ height: 50px;
+}
+.kc {
+  display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url(https://i.imgur.com/9a8CA64.png) no-repeat;
+ width: 100px;
+ height: 50px;
+}
+.right{
+  display: block; margin: 0 auto;
+    background-color: yellow; /* Green */
+   border: none;
+   color: white;
+   padding: 5px 5px;
+   border-radius: 5px;
+   font: 12px 'Open Sans', sans-serif;
+   margin: 1%
+  text-align: right;
+  float: right;
+  box-sizing: border-box;
+    display:block;
+    margin-top: 10px;
+}
+
+.name{
+  overflow-wrap: break-word;
+  padding: 5px;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  z-index: 1;
+  position:absolute;
+}
+
+/*.zoom:active {
+  transform: scale(5);
+}*/
+
+.absolute {
+  position:fixed;
+}

@@ -21,10 +21,32 @@ a{
   text-decoration: none;
   color: #494949
 }
+a.mapbutton{
+  font-weight: bold;
+  background-color: #F35E18;
+  color: white;
+  margin:15px;
+  border-radius: 15px;
+  padding:7px;
+  padding-right: 13px;
+  padding-left: 13px;
+  font-size: 120%
+}
+
+a.mapbutton:hover{
+  background-color: #00ADEF;
+}
 
 a.link{
   text-decoration: underline;
   color: #00ADEF;
+}
+a.pc{
+  display: inline;
+}
+
+a.mobil{
+display: none;
 }
 
 p.gray{
@@ -140,6 +162,14 @@ button.accordion2.active, button.accordion2:hover {
     color: white;
     font-style: ;
 }
+
+div.float{
+  position: fixed;
+  left:auto;
+  right:5px;
+  bottom:15px;
+}
+
 div.panel {
     padding: 0 18px;
     display: none;
@@ -482,10 +512,22 @@ div.space{
     display: block;
     text-align: left;
   }
+
+  a.pc{
+    display: none;
+  }
+
+  a.mobil{
+  display: inline;
+  }
+
+  a.mapbutton{
+    font-size: 90%
+  }
+
 }
 
 @media screen and (max-width: 890px){
-
 
   .column1 {
       float: left;

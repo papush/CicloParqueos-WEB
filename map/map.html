@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101193437);</script>
+  <script async src="//static.getclicky.com/js"></script>
+  <meta charset=utf-8 />
+  <title>Mapa Ciclo-Incluyente</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link rel="shortcut icon" href="images/marker2.png" />
+
+
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.Default.css' rel='stylesheet' />
+  <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+  <!--<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/leaflet.markercluster.js'></script>
+  <script src='js/L.Control.Locate.min.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
+  <!--para zoom de imagenes-->
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/gpx.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div id='map' class='map'></div>
+  <div class="">
+    <div id="lista" class='sidebar'><b class="center">CicloParqueos  </b><span id="cerrarLista" style="position: sticky;" class="close">&times;</span><input type="text" style="width: 70%; margin:10px;" id="buscarLista" placeholder="Buscar Lugar"><br></div>
+    <div id='parqueos' class="opciones">
+
+      <a href="http://cicloparqueos.com" target="_blank"><img class="center logo" width="" src="images/logo.png" alt=""></a>
+      <div class="center">
+        <button id="listaSidebar" class="center">Lista CicloParqueos</button>
+        <button id="filtrosModal" class="center">Filtrar Mapa</button>
+        <!--<button id="rutasModal" class="center">Rutas Alternas</button>-->
+      </div>
+
+      <button id="btnInfo">Más Información</button>
+      <br>
+    </div>
+  </div>
+
+  <div id="cicloincluyenteInfo" class="modal">
+    <div class="ciContent">
+      <span id="closeInfoCI" class="close">&times;</span>
+
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content ">
+      <span id="close" class="close">&times;</span>
+<br>
+      <form id="filtros">
+
+        <div class="item-input">
+          <b class="">Por Distancia</b>
+          <div class="range-slider">
+            <span id="valorDistancia" class=" rs-label">10 km</span>
+            <input type="number" id="distancia" min="1" max="511" value="511" class="center">
+            <input type="text" style="display: none;" />
+            <!--usado para no tener que usar js y evitar que el enter submit the form-->
+          </div>
+          <br>
+          <br>
+          <b class="">Por Característica</b>
+          <div class="">
+            <div><input id="todosCheck" type='checkbox' name='filters' onclick='showTodoParqueos();' checked> Todos Los CicloParqueos</div>
+            <div><input type='checkbox' name='filters' onclick='showParqueos();' value='Descuento'> Con Beneficios y Descuentos</div>
+          </div>
+          <div class="">
+            <div><input type='checkbox' name='filters' onclick='showParqueos();' value='Cicloparqueo e inflador'> Con Infladores</div>
+            <div><input type='checkbox' name='filters' onclick='showParqueos();' value='Cicloparqueo, duchas y lockers'> Con Duchas y Lockers</div>
+          </div>
+          <div class="">
+            <div class=""><input type='checkbox' name='filters' onclick='showParqueos();' value='Seguridad'> Con Seguridad</div>
+            <div><input type='checkbox' name='filters' onclick='showParqueos();' value='Techado'> Con Techo</div>
+          </div>
+          <br>
+          <br>
+          <b class="">Ciclovías</b>
+          <div class=""><input id="cicloCarCheck" type='checkbox' name='cicloviasFilter' onclick='showCiclovia();'> Cartago, UCR y San José</div>
+      </form>
+
+      <br>
+      <br>
+      </div>
+      <button id="filtrar" class="center"><b class="center">Filtrar</b></button>
+    </div>
+  </div>
+  <!--<div id="modalRutas" class="modal">
+    <div class="modal-content ">
+      <span id="rutasClose" class="close">&times;</span>
+<br>
+      <form id="rutas">
+<b class="">CicloRutas</b>
+        <div class="item-input">
+
+          <br>
+
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Pozuelo - Rohrmoser</div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Cartago - Escazú</div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Av 10 - Embajada Nicaragua</div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Desamparados - Santo Domingo </div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Parque Heredia - Curridabat </div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Sabana - Guadalupe </div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Calle 10 - San Rafael, Desamparados</div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Sabana - Alajuelita</div>
+          <div class=""><input type='checkbox' name='rutasFilter' onclick='showRutas();'> Sabana - Alajuela</div>-->
+      </form>
+
+      <br>
+      <br>
+      </div>
+      <button id="filtrarRutas" class="center"><b class="center">Aceptar</b></button>
+    </div>
+  </div>-->
+  <div id="modalInfo" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="closeInfo" class="close">&times;</span>
+
+      <form action="https://formspree.io/info@cicloparqueos.com" method="POST">
+        <ul class="">
+          <li>Envíenos sus preguntas, comentarios y sugerencias en este formulario.</li>
+          <li>¿Conoce un cicloparqueo que no esté en el mapa? Nos gustaría conocerlo, ayúdenos a mejorar.</li>
+          <br>
+          <input type="email" name="email" placeholder="Su Email">
+          <br>
+          <textarea name="message" placeholder="Mensaje"></textarea>
+          <br>
+          <button type="submit">Enviar mensaje</button>
+          <br>
+          <small>El presente mapa es un proyecto desarrollado por CicloParqueos CR S.A. <br> Todos los derechos reservados © 2019</small>
+          <br>
+          <small>Diseño y Desarrollo Web por Randall Sáenz</small>
+        </ul>
+
+      </form>
+
+    </div>
+  </div>
+  <!---->
+  <script type="text/javascript">
+  document.getElementById('filtros').reset() // reset content de los forms al reload
+    // Buscar en la Lista
+    $("#buscarLista").on("keyup", function() {
+      val = $(this).val().toLowerCase()
+      $("div.item").each(function() {
+        $(this).toggle($(this).text().toLowerCase().includes(val))
+      })
+    })
+
+    L.mapbox.accessToken = 'pk.eyJ1Ijoic21vc2dhc2JvcmQiLCJhIjoiY2pudmRybWtsMDg1ZzNrcGdoNXVxdG9zMiJ9.hr1zCqpop2fFKO3JElFVFA';
+    // Here we don't use the second argument to map, since that would automatically
+    // load in non-clustered markers from the layer. Instead we add just the
+    // backing tileLayer, and then use the featureLayer only for its data.
+    var todosChecked = document.getElementById("todosCheck").checked
+    var cicloCarChecked = document.getElementById("cicloCarCheck").checked
+    var cicloviaCartagoGPX = 'data/cvcartago.gpx'
+    var cicloviaUCRGPX = 'data/ucrLaSabana.gpx'
+    var cicloviaSJGPX = 'data/av8c25c14av10.gpx'
+    var rutaPR = 'data/pr.gpx'
+
+    var cicloviaCartago = new L.GPX(cicloviaCartagoGPX, {
+      polyline_options: {
+    color: 'green',
+    opacity: 0.75,
+    weight: 5,
+    lineCap: 'round'
+    },
+      async: true,
+            marker_options: {
+              startIconUrl: 'images/point.png',
+              endIconUrl: 'images/point.png'
+            }
+    })
+
+    var cicloviaSanJose = new L.GPX(cicloviaSJGPX, {
+      polyline_options: {
+    color: 'orange',
+    opacity: 0.75,
+    weight: 5,
+    lineCap: 'round'
+    },async: true,
+      marker_options: {
+        startIconUrl: 'images/point.png',
+        endIconUrl: 'images/point.png'
+      }
+    })
+
+    var cicloviaUCR = new L.GPX(cicloviaUCRGPX, {
+      polyline_options: {
+    color: 'blue',
+    opacity: 0.75,
+    weight: 5,
+    lineCap: 'round'
+    },async: true,
+      marker_options: {
+        startIconUrl: 'images/point.png',
+        endIconUrl: 'images/point.png'
+      }
+    })
+
+    var rutaPR = new L.GPX(rutaPR, {
+      polyline_options: {
+    color: 'red',
+    opacity: 0.75,
+    weight: 5,
+    lineCap: 'round'
+    },async: true,
+      marker_options: {
+        startIconUrl: 'images/point.png',
+        endIconUrl: 'images/point.png'
+      }
+    })
+
+
+    var map = L.mapbox.map('map')
+      .setView([9.94, -84.09], 6)
+      .addLayer(L.mapbox.tileLayer('mapbox.streets'));
+    // Add geolocate control to the map.
+    var geoLoc = L.control.locate().addTo(map);
+    //console.log(map.getBounds)
+    var overlays = L.layerGroup().addTo(map);
+    var layers;
+    L.mapbox.featureLayer().loadURL('data/cicloviaCartago.gpx')
+    L.mapbox.featureLayer()
+      .loadURL('data/mapa.geojson')
+      .on('ready', function(e) {
+        layers = e.target;
+        showTodoParqueos()
+
+
+        layers.eachLayer(function(locale) {
+          var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
+          var prop = locale.feature.properties;
+          var coords = locale.feature.geometry.coordinates;
+          var lat = coords[1];
+          var long = coords[0];
+          var url = "http://maps.google.com/maps?q=" + lat + "," + long
+          var popup = '<h3 class="name">' + prop.nombre + '</h3><div class="popup name"><div><a href='+prop.urlImg + ' data-fancybox ><img class="zoom" width="95" height="95" src=' +
+            prop.urlImg + '></a><br/><br/><br/><br/><br/><br/><br/><div class="absolute"><div class=' + prop.categoriaCicloParqueos +
+            '><a class="right" href="http://cicloparqueos.netlify.com/cicloincluyente.htm" target="_blank">&#8505;</a></div><a target="_blank" href=' + url +
+            ' >' + "Indicaciones Cómo Llegar" + '</a><div><b>Horario </b>' + prop.horario +
+             '</div><div><b>Teléfono </b>' + prop.telefono +
+            '</div><div><b>Uso </b>' + prop.uso + '</div><div><b>Tipo </b>' + prop.tipo +
+             '</div><div><b>Capacidad </b>' + prop.capacidad +
+            '</div><div><b>Facilidades </b>' + prop.facilidades +
+            '</div><div><b>Categoría </b>' + prop.categoriaNegocio +
+             '</div><div><b>Cicloparqueo Techado </b>' + prop.techo +
+             '</div><div><b>Seguridad En Sitio </b>' + prop.seguridad + "  " +prop.tipoSeguridad +
+             '</div><div><b>Beneficio </b>' + prop.beneficio + "  " +
+              prop.beneficioDetalle + '</div><div><a target="_blank" href=' +
+            prop.link + ' >' + prop.link + '</a></div></div></div>';
+
+          locale.bindPopup(popup, {
+            maxWidth: "300",
+            autoClose: false,
+            closeOnClick: false
+          });
+
+          locale.setIcon(L.icon({
+            iconUrl: 'images/marker2.png',
+            iconSize: [36, 36],
+            iconAnchor: [28, 28],
+            popupAnchor: [0, -34]
+          }))
+
+          displayLista(locale);
+
+          function displayLista(layer) {
+            var lista1 = document.createElement('div')
+            var listing = lista.appendChild(lista1);
+            listing.className = 'item';
+
+            var link = listing.appendChild(document.createElement('a'));
+            link.href = '#';
+            //link.className = 'title';
+
+            link.innerHTML = '<small>' + prop.nombre + '</small>';
+            link.innerHTML += '<br /><small class="quiet">' + prop.provincia + '</small>';
+
+
+            link.onclick = function() {
+              setActive(listing);
+
+              // When a menu item is clicked, animate the map to center
+              // its associated locale and open its popup.
+              overlays.clearLayers()
+
+              showTodoParqueos()
+              map.setView(layer.getLatLng(), 19);
+              layer.openPopup();
+              return false;
+            };
+          }
+        })
+
+      })
+
+    function setActive(el) {
+      var siblings = lista.getElementsByTagName('div');
+      for (var i = 0; i < siblings.length; i++) {
+        siblings[i].className = siblings[i].className
+          .replace(/active/, '').replace(/\s\s*$/, '')
+      }
+      el.className += ' active';
+    }
+
+    var filters = document.getElementById('filtros').filters
+    var dist = document.getElementById("distancia")
+    dist.addEventListener('change', showParqueos)
+
+    var latDefault = 9.928102283140376
+    var longDefault = -84.11596298217775
+
+    function onLocationFound(e) {
+      latDefault = e.latlng.lat
+      longDefault = e.latlng.lng
+      console.log("estamos en " + e.latlng.lng + " " + e.latlng.lat)
+
+    }
+
+    map.on('locationfound', onLocationFound)
+
+
+
+    function showParqueos() {
+      var valorDistancia = document.getElementById("valorDistancia");
+      valorDistancia.innerHTML = dist.value + " km"
+      var list = []
+      for (var i = 0; i < filters.length; i++) {
+        if (filters[i].checked) list.push(filters[i].value);
+      }
+
+      console.log(list)
+
+      overlays.clearLayers()
+      if (todosChecked) {
+        document.getElementById("todosCheck").checked = false
+      }
+      // create a new marker group
+      var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
+      // and add any markers that fit the filtered criteria to that group.
+      layers.eachLayer(function(layer) {
+        var prop = layer.feature.properties;
+        var location = L.latLng(new L.LatLng(latDefault, longDefault)).distanceTo([layer.feature.geometry.coordinates[1], layer.feature.geometry.coordinates[0]])
+        //if (list.indexOf(layer.feature.properties.tipo) !== -1 || list.indexOf(layer.feature.properties.uso) !== -1  && list.indexOf(layer.feature.properties.inflador) && -1 && list.indexOf(layer.feature.properties.beneficio) !== -1)
+        var km = dist.value
+        if ((location <= km * 1000) == true) {
+          if (list.indexOf(prop.seguridad) == -1 && list.indexOf(prop.facilidades) == -1 && list.indexOf(prop.beneficio) !== -1 &&list.indexOf(prop.techo) == -1) {
+            clusterGroup.addLayer(layer);
+            console.log(list.indexOf(prop.beneficio))
+          } else if ((list.indexOf(prop.seguridad) == -1 && list.indexOf(prop.facilidades) !== -1 && list.indexOf(prop.beneficio) == -1 &&list.indexOf(prop.techo) == -1 )) {
+            clusterGroup.addLayer(layer);
+          } else if ((list.indexOf(prop.seguridad) !== -1 && list.indexOf(prop.facilidades) == -1 && list.indexOf(prop.beneficio) == -1 &&list.indexOf(prop.techo) == -1)) {
+            clusterGroup.addLayer(layer);
+          } else if ((list.indexOf(prop.seguridad) == -1 && list.indexOf(prop.facilidades) == -1 && list.indexOf(prop.beneficio) == -1 &&list.indexOf(prop.techo) !== -1)) {
+            clusterGroup.addLayer(layer);
+          }
+        }
+      })
+    }
+    function showTodoParqueos() {
+      var valorDistancia = document.getElementById("valorDistancia");
+      valorDistancia.innerHTML = dist.value + " km"
+      overlays.clearLayers()
+       var clusterGroup = new L.MarkerClusterGroup()
+
+
+
+      layers.eachLayer(function(layer) {
+        var location = L.latLng(new L.LatLng(latDefault, longDefault)).distanceTo([layer.feature.geometry.coordinates[1], layer.feature.geometry.coordinates[0]])
+        //if (list.indexOf(layer.feature.properties.tipo) !== -1 || list.indexOf(layer.feature.properties.uso) !== -1  && list.indexOf(layer.feature.properties.inflador) && -1 && list.indexOf(layer.feature.properties.beneficio) !== -1)
+        var km = dist.value
+
+        if ((location <= km * 1000) == true) {
+
+        clusterGroup.addLayer(layer)
+      }
+      })
+
+      if (todosChecked){
+        clusterGroup.addTo(overlays);
+      }else{
+        overlays.clearLayers()
+      }
+
+    }
+
+
+
+    function showCiclovia(){
+      console.log(document.getElementById("cicloCarCheck").checked)
+      if (document.getElementById("cicloCarCheck").checked == false) {
+        map.removeLayer(cicloviaSanJose)
+        map.removeLayer(cicloviaCartago)
+        map.removeLayer(cicloviaUCR)
+        console.log("lel")
+      } else {
+        cicloviaCartago.addTo(map)
+        cicloviaSanJose.addTo(map)
+        cicloviaUCR.addTo(map)
+      }
+    }
+
+    function showRutas(ruta){
+      overlays.clearLayers()
+      rutaPR.addTo(map)
+      console.log("lll")
+/*Pozuelo - Rohrmoser
+Cartago - Escazú
+Av 10 - Embajada Nicaragua
+Desamparados - Santo Domingo
+Parque Heredia - Curridabat
+Sabana - Guadalupe
+Calle 10 - San Rafael, Desamparados
+Sabana - Alajuelita
+Sabana - Alajuela*/
+
+
+    }
+
+
+
+    // sección de modals y botones
+
+    var modal = document.getElementById('modal');
+    var btn = document.getElementById("filtrosModal");
+    var span = document.getElementById("close");
+    var cerrar = document.getElementById("cerrarLista");
+    var filtrar = document.getElementById("filtrar");
+    var lista = document.getElementById("lista");
+    var cicloCarChecked = document.getElementById('cicloCarCheck');
+
+
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    btnInfo.onclick = function() {
+      modalInfo.style.display = "block";
+    }
+    /*rutasModal.onclick = function() {
+      modalRutas.style.display = "block";
+    }
+
+    rutasClose.onclick = function() {
+      modalRutas.style.display = "none";
+    }
+    filtrarRutas.onclick = function() {
+      modalRutas.style.display = "none";
+    }*/
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    closeInfo.onclick = function() {
+      modalInfo.style.display = "none";
+    }
+    closeInfoCI.onclick = function() {
+      cicloincluyenteInfo.style.display = "none";
+    }
+
+    filtrar.onclick = function() {
+      modal.style.display = "none";
+      //lista.style.display = "block";
+      //updateInfo(listing);
+    }
+
+    cerrarLista.onclick = function() {
+      lista.style.display = "none";
+      //document.getElementById('listing').innerHTML = '';
+    }
+    listaSidebar.onclick = function() {
+      console.log("clik")
+
+      if (lista.style.display == "block") {
+        lista.style.display = "none";
+      } else {
+        lista.style.display = "block";
+
+      }
+
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    /*window.onclick = function(event) {
+console.log(event);
+      }*/
+      /*cicloCarChecked.onclick = function(event){
+        if (map.hasLayer(cicloviaSanJose) || map.hasLayer(cicloviaCartago) ) {
+
+
+        }
+      }*/
+
+  </script>
+</body>
+
+</html>
