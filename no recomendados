@@ -1,0 +1,4 @@
+  <span onclick="openNav22()"><img class="prod" src="img/waverack.jpg" alt="waverack"></img></span>
+
+  <span onclick="openNav18()"><img class="prod" src="img/duckrack.png" alt="duckrack"></img></span>
+  
