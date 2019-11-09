@@ -218,6 +218,7 @@ div.panel {
     max-width:500px
   }
 
+
   .fadein {
      position:relative;
       width:980px;
@@ -232,10 +233,12 @@ div.panel {
        top:0;
       }
 
+
       .fadein2 {
          position:relative;
           width:100%;
-          height:auto;
+          min-height: 390px;
+
         }
 
       .fadein2 img {
@@ -328,7 +331,7 @@ h1.overlad {
     z-index: 1;
     top: 0;
     left: 0;
-    color:#A1A1A1;
+    color:white;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
@@ -336,11 +339,16 @@ h1.overlad {
 }
 
 .overlay-content {
+    color: white;
     position: relative;
     top: 10%;
     left:10%;
     width: 90%;
     text-align:left;
+}
+
+.overlay ul li {
+  color: #BABABA;
 }
 
 .overlay a {

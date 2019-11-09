@@ -91,24 +91,26 @@
 
               </div>
 
-              <button class="accordion">Visitas al Lugar y Diseño</button>
+              <button class="accordion">Diseño y Modelado 3D</button>
               <div class="panel">
-                <div class="row">
-                    <div class="column1">
-                      <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/4OdpspqTgQw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-                    </div>
-                    <div class="column2">
+                <div class="row" >
+                    <div class="columna1">
                       <p style="font-size:135%">El personal de CicloParqueos CR está entrenado para ayudarle con densidad creciente, ubicación del lugar, riesgos de seguridad, análisis de superficie e instalaciones con chorrea, detectar posibles obstáculos y a encontrar también soluciones que los clientes nunca antes hubieran pensado.</p>
                     </div>
+
+                    <div class="columna2">
+                      <div class="fadein2" >
+                        <img src="img/3d1.jpg" alt=".">
+                        <img src="img/3d2.jpg" alt=".">
+                        <img src="img/3d3.jpg" alt=".">
+                        <img src="img/3d4.jpg" alt=".">
+                        <img src="img/3d5.jpg" alt=".">
+                      </div>
+                    </div>
+
                 </div>
 
-                <div class="row">
-                    <div class="column1">
-                      <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/AcG3Khbnu3k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-                    </div>
-                    <div class="column2">
-                    </div>
-                </div>
+
 
                 <img  hidden src="img/diseno.jpg" alt="diseno" style="float:right;padding:10px;max-width:450px">
               </div>
@@ -148,7 +150,7 @@
         <a target="_blank" href="https://es-la.facebook.com/CicloParqueos/"><img src="img/fb.png" style="max-width:50px" alt="facebook"></a>
         <a target="_blank" href="https://www.youtube.com/channel/UCJdYrT5FbfTAWIFsNftLhUg"><img src="img/ytb.png" style="max-width:50px" alt="youtube"></a>
         <img alt="prueba" src="img/gglmps.png" style="width:50px;cursor:pointer" onclick="mapsSelector()">
-        <p style="font-size:70%" class="gray">Web Design by Pablo Hellmund</p>
+        <p style="font-size:70%" class="gray">Web Design by <a href="https://pablohellmund.com" target="_blank"><strong>Pablo Hellmund</strong></a></p>
       </div>
 
 <!--OVERLAY-->
@@ -208,6 +210,17 @@
          .next('img').fadeIn()
          .end().appendTo('.fadein');},
       4000);
+});
+</script>
+
+<script>
+        $(function(){
+    $('.fadein2 img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein2 :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein2');},
+      3000);
 });
 </script>
 
