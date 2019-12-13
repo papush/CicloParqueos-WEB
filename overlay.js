@@ -349,3 +349,142 @@
     document.getElementById("myNav50").style.width = "0%";
     }
 
+    function openNav51() {
+    document.getElementById("myNav51").style.width = "100%";
+    }
+    function closeNav51() {
+    document.getElementById("myNav51").style.width = "0%";
+    }
+
+    function openNav52() {
+    document.getElementById("myNav52").style.width = "100%";
+    }
+    function closeNav52() {
+    document.getElementById("myNav52").style.width = "0%";
+    }
+
+    function openNav53() {
+    document.getElementById("myNav53").style.width = "100%";
+    }
+    function closeNav53() {
+    document.getElementById("myNav53").style.width = "0%";
+    }
+
+    function openNav54() {
+    document.getElementById("myNav54").style.width = "100%";
+    }
+    function closeNav54() {
+    document.getElementById("myNav54").style.width = "0%";
+    }
+
+    function openNav55() {
+    document.getElementById("myNav55").style.width = "100%";
+    }
+    function closeNav55() {
+    document.getElementById("myNav55").style.width = "0%";
+    }
+
+    function openNav56() {
+    document.getElementById("myNav56").style.width = "100%";
+    }
+    function closeNav56() {
+    document.getElementById("myNav56").style.width = "0%";
+    }
+
+    function openNav57() {
+    document.getElementById("myNav57").style.width = "100%";
+    }
+    function closeNav57() {
+    document.getElementById("myNav57").style.width = "0%";
+    }
+
+    function openNav58() {
+    document.getElementById("myNav58").style.width = "100%";
+    }
+    function closeNav58() {
+    document.getElementById("myNav58").style.width = "0%";
+    }
+
+    function openNav59() {
+    document.getElementById("myNav59").style.width = "100%";
+    }
+    function closeNav59() {
+    document.getElementById("myNav59").style.width = "0%";
+    }
+
+    function openNav60() {
+    document.getElementById("myNav60").style.width = "100%";
+    }
+    function closeNav60() {
+    document.getElementById("myNav60").style.width = "0%";
+    }
+
+    function openNav61() {
+    document.getElementById("myNav61").style.width = "100%";
+    }
+    function closeNav61() {
+    document.getElementById("myNav61").style.width = "0%";
+    }
+
+    function openNav62() {
+    document.getElementById("myNav62").style.width = "100%";
+    }
+    function closeNav62() {
+    document.getElementById("myNav62").style.width = "0%";
+    }
+
+    function openNav63() {
+    document.getElementById("myNav63").style.width = "100%";
+    }
+    function closeNav63() {
+    document.getElementById("myNav63").style.width = "0%";
+    }
+
+    function openNav64() {
+    document.getElementById("myNav64").style.width = "100%";
+    }
+    function closeNav64() {
+    document.getElementById("myNav64").style.width = "0%";
+    }
+
+    function openNav65() {
+    document.getElementById("myNav65").style.width = "100%";
+    }
+    function closeNav65() {
+    document.getElementById("myNav65").style.width = "0%";
+    }
+
+    function openNav66() {
+    document.getElementById("myNav66").style.width = "100%";
+    }
+    function closeNav66() {
+    document.getElementById("myNav66").style.width = "0%";
+    }
+
+    function openNav67() {
+    document.getElementById("myNav67").style.width = "100%";
+    }
+    function closeNav67() {
+    document.getElementById("myNav67").style.width = "0%";
+    }
+
+    function openNav68() {
+    document.getElementById("myNav68").style.width = "100%";
+    }
+    function closeNav68() {
+    document.getElementById("myNav68").style.width = "0%";
+    }
+
+    function openNav69() {
+    document.getElementById("myNav69").style.width = "100%";
+    }
+    function closeNav69() {
+    document.getElementById("myNav69").style.width = "0%";
+    }
+
+    function openNav70() {
+    document.getElementById("myNav70").style.width = "100%";
+    }
+    function closeNav70() {
+    document.getElementById("myNav70").style.width = "0%";
+    }
